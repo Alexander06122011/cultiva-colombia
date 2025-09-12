@@ -9,6 +9,8 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+import { getFirebaseFirestore } from '@/lib/firebase';
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 
 const SubmitSuggestionInputSchema = z.object({
   suggestion: z.string().describe('El texto de la sugerencia del usuario.'),
@@ -44,9 +46,26 @@ const submitSuggestionFlow = ai.defineFlow(
   async (input) => {
     console.log(`Nueva sugerencia recibida: ${input.suggestion}`);
     
+    // Generar el mensaje de agradecimiento primero, para que el usuario obtenga una respuesta rápida.
     const {output} = await prompt(input);
     
-    // Aquí es donde en el futuro se podría guardar la sugerencia en una base de datos (Firestore).
+    // Guardar la sugerencia en Firestore en segundo plano.
+    const db = getFirebaseFirestore();
+    if (db) {
+        try {
+            const suggestionsCollection = collection(db, 'sugerencias');
+            await addDoc(suggestionsCollection, {
+                suggestion: input.suggestion,
+                createdAt: serverTimestamp()
+            });
+            console.log('Sugerencia guardada en Firestore.');
+        } catch (error) {
+            console.error("Error al guardar la sugerencia en Firestore:", error);
+            // Opcional: manejar el error, aunque para el usuario la operación ya fue exitosa.
+        }
+    } else {
+        console.warn('Firestore no está configurado. La sugerencia solo se ha registrado en los logs.');
+    }
     
     return output!;
   }
