@@ -81,10 +81,25 @@ export default function SignupPage() {
       router.push('/dashboard');
     } catch (error: any) {
       console.error("Firebase signup error:", error);
+      let description = 'Ocurrió un error inesperado. Por favor, inténtalo de nuevo.';
+      switch (error.code) {
+        case 'auth/email-already-in-use':
+          description = 'Este correo electrónico ya se encuentra registrado. Por favor, inicia sesión.';
+          break;
+        case 'auth/invalid-email':
+          description = 'El correo electrónico proporcionado no es válido.';
+          break;
+        case 'auth/weak-password':
+          description = 'La contraseña es demasiado débil. Debe tener al menos 6 caracteres.';
+          break;
+        default:
+          description = error.message;
+          break;
+      }
       toast({
         variant: 'destructive',
         title: 'Error al registrarse',
-        description: error.message || 'Ocurrió un error inesperado. Por favor, inténtalo de nuevo.',
+        description: description,
       });
       setLoading(false);
     }
