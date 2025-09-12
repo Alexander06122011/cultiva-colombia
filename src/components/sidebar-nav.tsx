@@ -21,6 +21,7 @@ import {
   BookOpen,
   Settings,
   GraduationCap,
+  MessageSquare,
 } from "lucide-react";
 import { CultivaColombiaIcon } from "./icons";
 import { useAuth } from "@/context/auth-context";
@@ -69,6 +70,18 @@ export function SidebarNav() {
       </SidebarContent>
       <SidebarFooter>
         <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton
+              asChild
+              isActive={pathname.startsWith('/contact')}
+              onClick={() => setOpenMobile(false)}
+            >
+              <Link href="/contact">
+                <MessageSquare />
+                Contacto
+              </Link>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
           <SidebarMenuItem>
             <SidebarMenuButton
               asChild
