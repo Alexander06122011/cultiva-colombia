@@ -44,16 +44,6 @@ const nextConfig: NextConfig = {
       },
     ]
   },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      // Ignore the warning from handlebars library
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        'handlebars': 'handlebars/dist/handlebars.js',
-      };
-    }
-    return config;
-  },
 };
 
 export default nextConfig;
