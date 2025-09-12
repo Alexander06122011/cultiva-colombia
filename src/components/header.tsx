@@ -23,6 +23,7 @@ const getTitle = (pathname: string) => {
         case '/resources': return 'Recursos Educativos';
         case '/glossary': return 'Glosario';
         case '/settings': return 'Ajustes';
+        case '/contact': return 'Contacto';
         default: return 'CultivaColombia';
     }
 }
