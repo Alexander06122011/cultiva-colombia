@@ -623,7 +623,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Plátano',
     species: 'Musa paradisiaca',
     description: 'El plátano es un alimento básico en toda Colombia. Esta planta de gran tamaño, similar a un banano pero para cocción, es generosa y su cultivo es relativamente sencillo en climas cálidos.',
-    imageUrl: 'https://i.imgur.com/kS9j7wM.jpeg',
+    imageUrl: 'https://i.imgur.com/Uf7WGD5.jpeg',
     imageHint: 'plantain tree',
     difficulty: 'medium',
     lifeCycle: {
@@ -652,7 +652,7 @@ export const CROP_DATA: Crop[] = [
         { text: 'Aplica mulching grueso para mantener la humedad y controlar malezas.' },
         { 
           text: 'Una vez cosechado el racimo, se corta el tallo principal para dar paso a los hijos.',
-          imageUrl: 'https://i.imgur.com/rM1O0H3.jpeg',
+          imageUrl: 'https://i.imgur.com/lO3qI4Q.jpeg',
           imageHint: 'harvesting plantain'
         },
       ],
@@ -685,7 +685,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Yuca',
     species: 'Manihot esculenta',
     description: 'La yuca, también conocida como mandioca o casabe, es un arbusto cuya raíz es una fuente de carbohidratos fundamental en las zonas tropicales. Es un cultivo rústico y muy resistente a la sequía.',
-    imageUrl: 'https://i.imgur.com/YwNqJbS.jpeg',
+    imageUrl: 'https://i.imgur.com/uRovV24.jpeg',
     imageHint: 'cassava plant roots',
     difficulty: 'easy',
     lifeCycle: {
@@ -712,7 +712,7 @@ export const CROP_DATA: Crop[] = [
         { text: 'Prepara el suelo para que esté suelto y profundo, sin piedras.' },
         { 
           text: 'Corta estacas de 20-30 cm de tallos maduros y entiérralas a la mitad, en ángulo o verticalmente.',
-          imageUrl: 'https://i.imgur.com/p1d3xJ3.jpeg',
+          imageUrl: 'https://i.imgur.com/zW3bO9V.jpeg',
           imageHint: 'planting cassava cutting'
         },
         { text: 'Deja un metro de distancia entre plantas.' },
@@ -747,7 +747,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Cebolla Larga',
     species: 'Allium fistulosum',
     description: 'Conocida también como cebolla de verdeo o cebollín, es un ingrediente esencial en la cocina colombiana para guisos y hogao. Es fácil de cultivar y se puede cosechar de forma continua.',
-    imageUrl: 'https://i.imgur.com/G5g2fN4.jpeg',
+    imageUrl: 'https://i.imgur.com/lO7C1qA.jpeg',
     imageHint: 'scallions green onion',
     difficulty: 'easy',
     lifeCycle: {
@@ -767,7 +767,7 @@ export const CROP_DATA: Crop[] = [
       pot: [
         { 
           text: 'Planta las bases con raíces de cebollas compradas en una maceta con buena tierra.',
-          imageUrl: 'https://i.imgur.com/YwNqJbS.jpeg',
+          imageUrl: 'https://i.imgur.com/o1C6c8m.jpeg',
           imageHint: 'regrowing green onion'
         },
         { text: 'Cúbrelas con tierra dejando la parte superior expuesta.' },
@@ -809,7 +809,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Pimentón',
     species: 'Capsicum annuum',
     description: 'El pimentón o pimiento morrón es una hortaliza vibrante y dulce, rica en vitamina C. Se usa en una infinidad de platos por su color y sabor. Madura de verde a rojo, amarillo o naranja.',
-    imageUrl: 'https://i.imgur.com/p1d3xJ3.jpeg',
+    imageUrl: 'https://i.imgur.com/KzM5XJj.jpeg',
     imageHint: 'bell pepper plant',
     difficulty: 'medium',
     lifeCycle: {
@@ -837,7 +837,7 @@ export const CROP_DATA: Crop[] = [
         { text: 'Deja 40-50 cm de separación entre plantas.' },
         { 
           text: 'El mulching ayuda a mantener la humedad del suelo.',
-          imageUrl: 'https://i.imgur.com/2MV0w1a.jpeg',
+          imageUrl: 'https://i.imgur.com/5J3eZ3a.jpeg',
           imageHint: 'mulch around pepper plant'
         },
         { text: 'Cosecha cortando el tallo del fruto con tijeras para no dañar la planta.' },
@@ -870,7 +870,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Lulo',
     species: 'Solanum quitoense',
     description: 'El lulo o naranjilla es una fruta emblemática de Colombia, con un sabor ácido y exótico inconfundible, ideal para jugos. La planta es un arbusto con hojas grandes y espinas.',
-    imageUrl: 'https://i.imgur.com/G5g2fN4.jpeg',
+    imageUrl: 'https://i.imgur.com/b9hS9p6.jpeg',
     imageHint: 'lulo fruit plant',
     difficulty: 'hard',
     lifeCycle: {
@@ -928,7 +928,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Maracuyá',
     species: 'Passiflora edulis',
     description: 'El maracuyá es una fruta de la pasión, una enredadera vigorosa que produce frutos ácidos y muy aromáticos, perfectos para jugos, postres y salsas. Su flor es espectacular.',
-    imageUrl: 'https://i.imgur.com/uC0v3qJ.jpeg',
+    imageUrl: 'https://i.imgur.com/gI20x2f.jpeg',
     imageHint: 'passion fruit vine',
     difficulty: 'medium',
     lifeCycle: {
@@ -956,7 +956,7 @@ export const CROP_DATA: Crop[] = [
         { text: 'Planta al pie de la estructura de soporte.' },
         { 
           text: 'Guía los tallos principales hasta la parte superior de la estructura y luego deja que cuelguen.',
-          imageUrl: 'https://i.imgur.com/S8WJz4y.jpeg',
+          imageUrl: 'https://i.imgur.com/zW3bO9V.jpeg',
           imageHint: 'passion fruit trellis'
         },
         { text: 'La polinización la realizan abejas grandes (abejorros) o se puede hacer a mano.' },
@@ -990,7 +990,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Arracacha',
     species: 'Arracacia xanthorrhiza',
     description: 'Un tubérculo andino por excelencia, con un sabor único a medio camino entre la zanahoria y el apio. Se usa en sopas, purés y fritos. Es un cultivo de clima frío.',
-    imageUrl: 'https://i.imgur.com/Z4N3bC5.jpeg',
+    imageUrl: 'https://i.imgur.com/bA7w3J2.jpeg',
     imageHint: 'arracacha root vegetable',
     difficulty: 'medium',
     lifeCycle: {
@@ -1048,7 +1048,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Ají',
     species: 'Capsicum (varias especies)',
     description: 'El ají es el alma de muchas salsas y preparaciones en Colombia. Desde el pequeño ají pajarito hasta variedades más grandes, estas plantas son fáciles de cultivar y producen frutos durante mucho tiempo.',
-    imageUrl: 'https://i.imgur.com/rM1O0H3.jpeg',
+    imageUrl: 'https://i.imgur.com/lO3qI4Q.jpeg',
     imageHint: 'chili pepper plant',
     difficulty: 'easy',
     lifeCycle: {
@@ -1232,7 +1232,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Repollo',
     species: 'Brassica oleracea var. capitata',
     description: 'El repollo es una hortaliza de hoja robusta que forma una cabeza compacta. Es un cultivo de clima fresco y la base de muchas ensaladas y platos cocidos.',
-    imageUrl: 'https://i.imgur.com/kS9j7wM.jpeg',
+    imageUrl: 'https://i.imgur.com/T0aPwzM.jpeg',
     imageHint: 'cabbage head plant',
     difficulty: 'medium',
     lifeCycle: {
@@ -1351,7 +1351,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Remolacha (Betabel)',
     species: 'Beta vulgaris',
     description: 'La remolacha es una hortaliza de raíz dulce y terrosa, conocida por su intenso color. Es versátil en la cocina, usándose tanto la raíz en ensaladas o cocida, como las hojas (similares a la acelga).',
-    imageUrl: 'https://i.imgur.com/p1d3xJ3.jpeg',
+    imageUrl: 'https://i.imgur.com/mJ2kCZb.jpeg',
     imageHint: 'beetroot plant garden',
     difficulty: 'easy',
     lifeCycle: {
@@ -1378,7 +1378,7 @@ export const CROP_DATA: Crop[] = [
         { text: 'Siembra directamente en un suelo suelto y sin piedras.' },
         { 
           text: 'Aclara las plántulas cuando tengan unos pocos centímetros de altura.',
-          imageUrl: 'https://i.imgur.com/G5g2fN4.jpeg',
+          imageUrl: 'https://i.imgur.com/tX3sP4Z.jpeg',
           imageHint: 'thinning seedlings garden'
         },
         { text: 'Asegúrate de que la parte superior de la raíz no quede expuesta al sol; cúbrela con un poco de tierra si es necesario.' },
@@ -1412,7 +1412,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Arveja (Guisante)',
     species: 'Pisum sativum',
     description: 'La arveja es una leguminosa de clima frío que produce vainas llenas de deliciosos granos. Hay variedades de mata baja y otras trepadoras que necesitan soporte. Enriquece el suelo fijando nitrógeno.',
-    imageUrl: 'https://i.imgur.com/2MV0w1a.jpeg',
+    imageUrl: 'https://i.imgur.com/yFqV7bJ.jpeg',
     imageHint: 'pea plant pods',
     difficulty: 'easy',
     lifeCycle: {
@@ -1438,7 +1438,7 @@ export const CROP_DATA: Crop[] = [
       soil: [
         { 
           text: 'Para variedades trepadoras, instala un enrejado o malla ANTES de sembrar.',
-          imageUrl: 'https://i.imgur.com/dZc4zJc.jpeg',
+          imageUrl: 'https://i.imgur.com/G5g2fN4.jpeg',
           imageHint: 'garden trellis peas'
         },
         { text: 'Siembra las semillas a 3-5 cm de profundidad y a 5-8 cm de distancia entre sí.' },
@@ -1473,7 +1473,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Hierbabuena',
     species: 'Mentha spicata',
     description: 'La hierbabuena es una hierba aromática increíblemente popular para infusiones, bebidas y salsas. Es muy fácil de cultivar, pero ¡cuidado! Es invasiva y puede apoderarse de tu jardín si no la controlas.',
-    imageUrl: 'https://i.imgur.com/yvM7s34.jpeg',
+    imageUrl: 'https://i.imgur.com/O6hJZrW.jpeg',
     imageHint: 'spearmint plant pot',
     difficulty: 'easy',
     lifeCycle: {
@@ -1493,7 +1493,7 @@ export const CROP_DATA: Crop[] = [
       pot: [
         { 
           text: '¡LA MEJOR OPCIÓN! Plantarla en maceta es la forma ideal de controlar su crecimiento invasivo.',
-          imageUrl: 'https://i.imgur.com/qM6Jg7d.jpeg',
+          imageUrl: 'https://i.imgur.com/5J3eZ3a.jpeg',
           imageHint: 'mint plant container'
         },
         { text: 'Usa una maceta ancha para que pueda extenderse.' },
@@ -1592,7 +1592,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Fresa',
     species: 'Fragaria × ananassa',
     description: 'La fresa es una de las frutas más populares del mundo. Es una planta perenne de bajo crecimiento que se extiende mediante estolones. Perfecta para macetas colgantes y huertos verticales.',
-    imageUrl: 'https://i.imgur.com/N74D2tN.jpeg',
+    imageUrl: 'https://i.imgur.com/S8WJz4y.jpeg',
     imageHint: 'strawberry plant fruit',
     difficulty: 'medium',
     lifeCycle: {
@@ -1649,7 +1649,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Espinaca',
     species: 'Spinacia oleracea',
     description: 'La espinaca es una hortaliza de hoja verde muy nutritiva y de crecimiento increíblemente rápido. Es un cultivo de clima frío, perfecto para las temporadas más frescas del año.',
-    imageUrl: 'https://i.imgur.com/XwFvI2L.jpeg',
+    imageUrl: 'https://i.imgur.com/tX3sP4Z.jpeg',
     imageHint: 'spinach patch garden',
     difficulty: 'easy',
     lifeCycle: {
@@ -1705,7 +1705,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Brócoli',
     species: 'Brassica oleracea var. italica',
     description: 'El brócoli es una inflorescencia comestible de la familia de la col. Es un cultivo de clima fresco muy nutritivo. Después de cortar la cabeza principal, la planta suele producir cabezas secundarias más pequeñas.',
-    imageUrl: 'https://i.imgur.com/4g5s8sT.jpeg',
+    imageUrl: 'https://i.imgur.com/yFqV7bJ.jpeg',
     imageHint: 'broccoli plant head',
     difficulty: 'medium',
     lifeCycle: {
@@ -1819,7 +1819,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Cebolla de Huevo (Bulbo)',
     species: 'Allium cepa',
     description: 'La cebolla de bulbo es otra hortaliza fundamental en la cocina. Requiere un ciclo largo y condiciones específicas de luz (días largos o cortos según la variedad) para formar el bulbo.',
-    imageUrl: 'https://i.imgur.com/p1d3xJ3.jpeg',
+    imageUrl: 'https://i.imgur.com/KzM5XJj.jpeg',
     imageHint: 'onion bulb patch',
     difficulty: 'medium',
     lifeCycle: {
@@ -1931,7 +1931,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Jengibre',
     species: 'Zingiber officinale',
     description: 'El jengibre es un rizoma aromático y picante usado como especia y medicina. Es una planta tropical que crece bien en condiciones de calor y humedad, ideal para climas cálidos o para cultivar en maceta en interiores.',
-    imageUrl: 'https://i.imgur.com/2MV0w1a.jpeg',
+    imageUrl: 'https://i.imgur.com/uRovV24.jpeg',
     imageHint: 'ginger plant root',
     difficulty: 'medium',
     lifeCycle: {
@@ -1988,7 +1988,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Gulupa',
     species: 'Passiflora edulis f. edulis',
     description: 'La gulupa es una fruta de la pasión de piel morada, más pequeña y dulce que el maracuyá. Es una enredadera que requiere soporte y es apreciada por su sabor exótico y sus propiedades antioxidantes.',
-    imageUrl: 'https://i.imgur.com/dZc4zJc.jpeg',
+    imageUrl: 'https://i.imgur.com/lO7C1qA.jpeg',
     imageHint: 'purple passion fruit',
     difficulty: 'medium',
     lifeCycle: {
@@ -2045,7 +2045,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Uchuva',
     species: 'Physalis peruviana',
     description: 'La uchuva, también conocida como alquequenje o physalis, es un arbusto que produce un pequeño fruto anaranjado envuelto en un capacho de papel. Su sabor es agridulce y es muy popular en postres y como fruta fresca.',
-    imageUrl: 'https://i.imgur.com/yvM7s34.jpeg',
+    imageUrl: 'https://i.imgur.com/o1C6c8m.jpeg',
     imageHint: 'cape gooseberry plant',
     difficulty: 'easy',
     lifeCycle: {
@@ -2101,7 +2101,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Granadilla',
     species: 'Passiflora ligularis',
     description: 'La granadilla es una de las pasifloras más dulces y apreciadas. Su pulpa gelatinosa y sus semillas comestibles la hacen una fruta deliciosa para comer fresca. Es una enredadera vigorosa que necesita un clima específico.',
-    imageUrl: 'https://i.imgur.com/qM6Jg7d.jpeg',
+    imageUrl: 'https://i.imgur.com/KzM5XJj.jpeg',
     imageHint: 'sweet granadilla vine',
     difficulty: 'hard',
     lifeCycle: {
@@ -2212,4 +2212,5 @@ export const SPACE_OPTIONS = [
   { value: 'garden', label: 'Huerto/Jardín' },
   { value: 'patio', label: 'Patio grande' },
 ];
+
 

@@ -28,7 +28,7 @@ export const GLOSSARY_DATA: GlossaryTermData[] = [
     id: 'mulching',
     name: 'Mulching (Acolchado)',
     definition: 'El mulching o acolchado consiste en cubrir la superficie del suelo alrededor de las plantas con una capa de material orgánico (paja, hojas secas, corteza) o inorgánico. Ayuda a conservar la humedad, regular la temperatura del suelo y suprimir las malas hierbas.',
-    imageUrl: 'https://i.imgur.com/yvM7s34.jpeg',
+    imageUrl: 'https://i.imgur.com/5J3eZ3a.jpeg',
     imageHint: 'garden mulch',
   },
   {
@@ -88,4 +88,5 @@ export const GLOSSARY_DATA: GlossaryTermData[] = [
     imageHint: 'seedling tray',
   }
 ];
+
 
