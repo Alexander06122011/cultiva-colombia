@@ -35,14 +35,14 @@ export const GLOSSARY_DATA: GlossaryTermData[] = [
     id: 'compost',
     name: 'Compost',
     definition: 'Abono orgánico obtenido de la descomposición controlada de materia orgánica como restos de cocina, hojas y pasto. Mejora la estructura del suelo y aporta nutrientes a las plantas.',
-    imageUrl: 'https://i.imgur.com/qM6Jg7d.jpeg',
+    imageUrl: 'https://i.imgur.com/uR2T0sM.jpg',
     imageHint: 'compost pile',
   },
   {
     id: 'humus-lombriz',
     name: 'Humus de Lombriz',
     definition: 'Excremento de las lombrices de tierra, es uno de los fertilizantes orgánicos más ricos y completos. Mejora la fertilidad del suelo, la retención de agua y la salud general de las plantas.',
-    imageUrl: 'https://i.imgur.com/N74D2tN.jpeg',
+    imageUrl: 'https://i.imgur.com/b9L3bS7.jpg',
     imageHint: 'worm castings soil',
   },
   {
@@ -88,6 +88,7 @@ export const GLOSSARY_DATA: GlossaryTermData[] = [
     imageHint: 'seedling tray',
   }
 ];
+
 
 
 

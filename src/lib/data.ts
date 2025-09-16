@@ -1493,7 +1493,7 @@ export const CROP_DATA: Crop[] = [
       pot: [
         { 
           text: '¡LA MEJOR OPCIÓN! Plantarla en maceta es la forma ideal de controlar su crecimiento invasivo.',
-          imageUrl: 'https://i.imgur.com/uR2T0sM.jpg',
+          imageUrl: 'https://i.imgur.com/v8SjR2b.jpg',
           imageHint: 'mint plant container'
         },
         { text: 'Usa una maceta ancha para que pueda extenderse.' },
@@ -1649,7 +1649,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Espinaca',
     species: 'Spinacia oleracea',
     description: 'La espinaca es una hortaliza de hoja verde muy nutritiva y de crecimiento increíblemente rápido. Es un cultivo de clima frío, perfecto para las temporadas más frescas del año.',
-    imageUrl: 'https://i.imgur.com/uR2T0sM.jpg',
+    imageUrl: 'https://i.imgur.com/yTfGqLg.jpg',
     imageHint: 'spinach patch garden',
     difficulty: 'easy',
     lifeCycle: {
@@ -1875,7 +1875,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Habichuela',
     species: 'Phaseolus vulgaris',
     description: 'La habichuela, también conocida como judía verde, es una leguminosa cuyas vainas tiernas son comestibles. Es un cultivo muy productivo y existen variedades de mata baja (arbustivas) y de enrame (trepadoras).',
-    imageUrl: 'https://i.imgur.com/kYmHZoG.jpg',
+    imageUrl: 'https://i.imgur.com/I7w3a7H.jpg',
     imageHint: 'green bean plant pods',
     difficulty: 'easy',
     lifeCycle: {
@@ -2045,7 +2045,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Uchuva',
     species: 'Physalis peruviana',
     description: 'La uchuva, también conocida como alquequenje o physalis, es un arbusto que produce un pequeño fruto anaranjado envuelto en un capacho de papel. Su sabor es agridulce y es muy popular en postres y como fruta fresca.',
-    imageUrl: 'https://i.imgur.com/kS9j7wM.jpeg',
+    imageUrl: 'https://i.imgur.com/sS7A5uC.jpg',
     imageHint: 'cape gooseberry plant',
     difficulty: 'easy',
     lifeCycle: {
@@ -2101,7 +2101,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Granadilla',
     species: 'Passiflora ligularis',
     description: 'La granadilla es una de las pasifloras más dulces y apreciadas. Su pulpa gelatinosa y sus semillas comestibles la hacen una fruta deliciosa para comer fresca. Es una enredadera vigorosa que necesita un clima específico.',
-    imageUrl: 'https://i.imgur.com/G5T5b0V.jpg',
+    imageUrl: 'https://i.imgur.com/h5dYk3e.jpg',
     imageHint: 'sweet granadilla vine',
     difficulty: 'hard',
     lifeCycle: {
@@ -2212,6 +2212,7 @@ export const SPACE_OPTIONS = [
   { value: 'garden', label: 'Huerto/Jardín' },
   { value: 'patio', label: 'Patio grande' },
 ];
+
 
 
 
