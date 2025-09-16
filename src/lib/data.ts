@@ -7,7 +7,7 @@ export const CROP_DATA: Crop[] = [
     name: 'Tomate Chonto',
     species: 'Solanum lycopersicum',
     description: 'El Tomate Chonto, también conocido como tomate de guiso, es una variedad robusta y carnosa, fundamental en la preparación de hogao y guisos en Colombia. Su sabor es más concentrado que el del tomate de ensalada.',
-    imageUrl: 'https://i.imgur.com/gM2V39G.jpg',
+    imageUrl: 'https://i.imgur.com/gA12T1z.jpeg',
     imageHint: 'roma tomato plant',
     difficulty: 'easy',
     lifeCycle: {
@@ -2212,6 +2212,7 @@ export const SPACE_OPTIONS = [
   { value: 'garden', label: 'Huerto/Jardín' },
   { value: 'patio', label: 'Patio grande' },
 ];
+
 
 
 
