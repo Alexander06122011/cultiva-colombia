@@ -628,7 +628,7 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: 'Crece a partir de cormos o "colinos".',
-      growth: '9-12 meses para que la planta principal produzca un racimo.',
+      growth: '9-12 meses para que la planta principal produza un racimo.',
       harvest: 'El racimo se cosecha cuando los plátanos están llenos y verdes.',
       totalDays: 365,
     },
@@ -1097,7 +1097,6 @@ export const CROP_DATA: Crop[] = [
         { item: 'Semillas', price: '$2,000 - $6,000 COP' },
         { item: 'Sustrato para maceta', price: '$10,000 - $15,000 COP' },
       ],
-      note: 'Una sola planta puede darte ajíes durante meses (o años).'
     },
     recommendations: '¡Experimenta con distintas variedades! Hay un mundo de sabores y niveles de picante por descubrir. Secar los ajíes es una excelente forma de conservarlos.',
     regions: ['Región Andina', 'Región Caribe', 'Región Pacífica', 'Región Orinoquía', 'Región Amazonía', 'Región Insular'],
@@ -2106,7 +2105,7 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'hard',
     lifeCycle: {
       planting: '3-5 semanas para germinar.',
-      growth: '8-12 meses para llegar a la madurez y florecer.',
+      growth: '8-15 meses para alcanzar la madurez y florecer.',
       harvest: 'Los frutos se cosechan cuando tienen un color amarillo anaranjado uniforme.',
       totalDays: 365,
     },
@@ -2152,6 +2151,176 @@ export const CROP_DATA: Crop[] = [
     regions: ['Región Andina'],
     notifications: {
       irrigation: 'La {cropName} necesita condiciones estables. ¡Revisa el riego para mantenerla feliz!',
+    },
+  },
+   {
+    id: 'rabano',
+    name: 'Rábano',
+    species: 'Raphanus sativus',
+    description: 'El rábano es una de las hortalizas de más rápido crecimiento, ideal para principiantes y niños. Su raíz picante y crujiente está lista para cosechar en menos de un mes, perfecta para ensaladas.',
+    imageUrl: 'https://i.imgur.com/2s3jYQc.jpg',
+    imageHint: 'radish plant garden',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: '3-7 días para germinar.',
+      growth: '20-30 días para que la raíz engrose.',
+      harvest: 'A los 25-40 días. No esperes mucho o se volverán leñosos.',
+      totalDays: 40,
+    },
+    requirements: {
+      irrigation: 'Regular y constante para evitar que se agrieten o se vuelvan demasiado picantes.',
+      climate: 'Climas frescos a templados. El calor excesivo los hace florecer.',
+      space: 'pot',
+      pests: 'Gusanos de la col, pulgones.',
+      fertilizers: 'No es exigente. Un suelo suelto y con algo de compost es suficiente.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Perfecto para macetas y jardineras de al menos 15 cm de profundidad.' },
+        { text: 'Siembra las semillas directamente, a 1 cm de profundidad y con 3-5 cm de separación.' },
+        { text: 'Mantén el sustrato uniformemente húmedo.' },
+        { text: 'Cosecha tan pronto como las raíces tengan un tamaño razonable.' },
+      ],
+      soil: [
+        { text: 'Siembra en hileras en un suelo suelto y libre de piedras.' },
+        { text: 'Es un excelente cultivo para rellenar espacios entre otros de crecimiento más lento.' },
+        { text: 'Realiza siembras sucesivas cada 10 días para tener una cosecha continua.' },
+        { text: 'Cosecha tirando suavemente de las hojas.' },
+      ],
+      hydroponics: [
+        { text: 'No es ideal para hidroponía por ser un cultivo de raíz, pero se puede intentar.' },
+        { text: 'Se necesitaría un sistema de goteo con un sustrato profundo y ligero como perlita o vermiculita.' },
+        { text: 'El crecimiento es rápido, por lo que puede ser un experimento interesante.' },
+        { text: 'No es una práctica común.' },
+      ],
+    },
+    compatibility: ['Lechuga', 'Zanahoria', 'Espinaca', 'Pepino'],
+    incompatibility: ['Papa', 'Hinojo'],
+    warnings: 'El tiempo de cosecha es clave. Si los dejas demasiado tiempo en la tierra, se vuelven fibrosos, picantes y se ahuecan por dentro.',
+    costs: {
+      range: 'Muy Bajo',
+      items: [
+        { item: 'Semillas', price: '$2,000 - $4,000 COP' },
+      ],
+    },
+    recommendations: 'Por su rapidez, es el cultivo perfecto para impacientes. Siémbralos alrededor de cultivos más lentos; los cosecharás antes de que los otros necesiten el espacio.',
+    regions: ['Región Andina'],
+    notifications: {
+      irrigation: '¡Tus rábanos crecen rápido! Un riego constante los mantendrá crujientes y deliciosos.',
+    },
+  },
+  {
+    id: 'acelga',
+    name: 'Acelga',
+    species: 'Beta vulgaris var. cicla',
+    description: 'La acelga es una hortaliza de hoja muy productiva y ornamental, con tallos (pencas) que pueden ser blancos, rojos o amarillos. Es muy nutritiva y se pueden consumir tanto sus hojas como sus pencas.',
+    imageUrl: 'https://i.imgur.com/u0E2m3e.jpg',
+    imageHint: 'swiss chard garden',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: '7-14 días para germinar.',
+      growth: '50-60 días para poder empezar a cosechar.',
+      harvest: 'Cosecha continua de las hojas exteriores durante meses.',
+      totalDays: 60,
+    },
+    requirements: {
+      irrigation: 'Regular. Le gusta mantener el suelo húmedo.',
+      climate: 'Muy adaptable. Tolera tanto el frío como el calor moderado.',
+      space: 'pot',
+      pests: 'Pulgones, babosas.',
+      fertilizers: 'Agradece un suelo rico en nitrógeno y materia orgánica.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Excelente para macetas de al menos 20-25 cm de profundidad.' },
+        { text: 'Una o dos plantas por maceta son suficientes para un suministro regular.' },
+        { text: 'Cosecha las hojas exteriores con un cuchillo o girándolas desde la base.' },
+        { text: 'Es una planta muy bonita para tener en un balcón.' },
+      ],
+      soil: [
+        { text: 'Siembra en hileras, dejando 20-30 cm entre plantas.' },
+        { text: 'Un suelo rico en compost le dará hojas grandes y tiernas.' },
+        { text: 'Al cosechar las hojas exteriores, la planta seguirá produciendo desde el centro durante toda la temporada.' },
+        { text: 'Es una de las hortalizas más productivas por metro cuadrado.' },
+      ],
+      hydroponics: [
+        { text: 'Se adapta muy bien a sistemas como NFT o balsa flotante (DWC).' },
+        { text: 'El crecimiento es rápido y las hojas son de alta calidad.' },
+        { text: 'Permite una cosecha continua y limpia.' },
+        { text: 'Ideal para la producción de "baby leaf".' },
+      ],
+    },
+    compatibility: ['Cebolla', 'Lechuga', 'Repollo'],
+    incompatibility: ['Maíz', 'Frijol trepador'],
+    warnings: 'Al igual que la remolacha, cada semilla puede producir varias plántulas, por lo que puede ser necesario aclarar.',
+    costs: {
+      range: 'Muy Bajo',
+      items: [
+        { item: 'Semillas', price: '$3,000 - $6,000 COP' },
+      ],
+    },
+    recommendations: '¡No tires las pencas! Se pueden cocinar por separado como si fueran apio, salteadas con ajo o en guisos.',
+    regions: ['Región Andina', 'Región Caribe'],
+    notifications: {
+      irrigation: 'Tu {cropName} es muy productiva. ¡Mantén el riego para que no pare de darte hojas!',
+    },
+  },
+  {
+    id: 'curuba',
+    name: 'Curuba',
+    species: 'Passiflora tripartita var. mollisima',
+    description: 'La curuba, también conocida como "banana passionfruit", es una fruta andina alargada con una pulpa ácida y aromática, famosa por su uso en jugos, postres y sorbetes. Es una enredadera de clima frío.',
+    imageUrl: 'https://i.imgur.com/N6dZp9x.jpg',
+    imageHint: 'banana passionfruit vine',
+    difficulty: 'hard',
+    lifeCycle: {
+      planting: '3-6 semanas para germinar.',
+      growth: '8-15 meses para alcanzar la madurez y empezar a florecer.',
+      harvest: 'La cosecha es continua una vez la planta está establecida. El fruto se cosecha cuando está completamente amarillo.',
+      totalDays: 450,
+    },
+    requirements: {
+      irrigation: 'Regular, especialmente en la producción de frutos. Buen drenaje es crucial.',
+      climate: 'Clima frío de altura (2,000 - 3,000 msnm). Requiere temperaturas frescas y no tolera el calor.',
+      space: 'patio',
+      pests: 'Mosca de la fruta, ácaros.',
+      fertilizers: 'Requiere suelos fértiles, ricos en materia orgánica y con buen drenaje.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'No es viable para cultivo en maceta debido al vigor de la enredadera y sus requerimientos climáticos específicos.' },
+        { text: 'No fructificaría adecuadamente.' },
+        { text: 'Inviable.' },
+        { text: 'Inviable.' },
+      ],
+      soil: [
+        { text: 'Necesita una estructura de soporte muy fuerte y alta, como un parral o pérgola.' },
+        { text: 'Es un cultivo de clima muy específico. Solo prosperará en zonas altas y frías de la cordillera.' },
+        { text: 'La poda regular es esencial para controlar el crecimiento y promover la fructificación en las ramas nuevas.' },
+        { text: 'La polinización la realizan colibríes y abejas grandes.' },
+      ],
+      hydroponics: [
+        { text: 'No es una práctica que se realice para este cultivo.' },
+        { text: 'El tamaño de la planta y sus requerimientos lo hacen inviable.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+      ],
+    },
+    compatibility: ['Plantas de cobertura de bajo crecimiento.'],
+    incompatibility: ['Cultivos que compitan agresivamente por luz y nutrientes.'],
+    warnings: 'Es muy específica en cuanto a clima y altitud. Si no estás en la altitud y clima correctos, la planta no producirá frutos.',
+    costs: {
+      range: 'Alto',
+      items: [
+        { item: 'Plántulas', price: '$10,000 - $25,000 COP' },
+        { item: 'Estructura de soporte', price: 'Inversión muy significativa' },
+      ],
+      note: 'Cultivo para expertos o para quienes viven en el nicho ecológico perfecto para la planta.'
+    },
+    recommendations: 'Antes de intentar cultivar curuba, asegúrate de que tu finca o jardín está por encima de los 2.000 msnm. Es un cultivo de nicho que recompensa a quienes tienen las condiciones adecuadas.',
+    regions: ['Región Andina'],
+    notifications: {
+      irrigation: 'Tu planta de {cropName} de clima frío necesita un riego cuidadoso. ¡Ni mucho ni poco!',
     },
   }
 ];
@@ -2213,7 +2382,4 @@ export const SPACE_OPTIONS = [
   { value: 'patio', label: 'Patio grande' },
 ];
 
-
-
-
-
+    

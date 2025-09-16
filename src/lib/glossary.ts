@@ -86,10 +86,28 @@ export const GLOSSARY_DATA: GlossaryTermData[] = [
     definition: 'Un lugar o recipiente con condiciones controladas (luz, temperatura, humedad) donde se siembran las semillas para que germinen y se desarrollen las plántulas en sus primeras etapas, antes de ser trasplantadas a su ubicación definitiva.',
     imageUrl: 'https://i.imgur.com/4h4A9V3.jpeg',
     imageHint: 'seedling tray',
+  },
+  {
+    id: 'aclareo',
+    name: 'Aclareo',
+    definition: 'Práctica de eliminar el exceso de plántulas que han germinado muy juntas para asegurar que las que quedan tengan suficiente espacio, luz y nutrientes para desarrollarse correctamente. Es crucial para cultivos de raíz como zanahorias o rábanos.',
+    imageUrl: 'https://i.imgur.com/tX3sP4Z.jpeg',
+    imageHint: 'thinning seedlings',
+  },
+  {
+    id: 'polinizacion',
+    name: 'Polinización',
+    definition: 'Proceso de transferencia de polen desde la parte masculina de una flor a la parte femenina, lo cual es necesario para que la planta produzca frutos y semillas. Puede ser realizada por el viento, insectos (como las abejas) o manualmente.',
+    imageUrl: 'https://i.imgur.com/G5T5b0V.jpg',
+    imageHint: 'bee pollinating flower',
+  },
+  {
+    id: 'ph-suelo',
+    name: 'pH del Suelo',
+    definition: 'Medida de la acidez o alcalinidad del suelo. La mayoría de las hortalizas prefieren un pH ligeramente ácido a neutro (entre 6.0 y 7.0), ya que en este rango los nutrientes están más disponibles para ser absorbidos por las raíces.',
+    imageUrl: 'https://i.imgur.com/p1d3xJ3.jpeg',
+    imageHint: 'soil ph meter',
   }
 ];
 
-
-
-
-
+    
