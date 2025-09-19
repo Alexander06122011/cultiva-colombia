@@ -9,8 +9,7 @@ import { CROP_DATA } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { Sprout } from "lucide-react";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import Image from "next/image";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { ProgressModal } from "./progress-modal";
@@ -84,19 +83,11 @@ export default function DashboardPage() {
               <Card key={crop.id} className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl">
                 <CardHeader className="p-0 relative">
                   <Link href={`/crops/${crop.id}`}>
-                    <div className="relative h-40 w-full">
-                      <Image
-                        src={crop.imageUrl}
-                        alt={crop.name}
-                        fill
-                        style={{ objectFit: "cover" }}
-                        data-ai-hint={crop.imageHint}
-                      />
-                    </div>
+                    <div className="relative h-40 w-full bg-secondary" />
                   </Link>
                 </CardHeader>
                 <CardContent className="p-4 flex-grow flex flex-col">
-                    <h3 className="font-bold font-headline text-lg">{crop.name}</h3>
+                    <CardTitle className="font-bold font-headline text-lg">{crop.name}</CardTitle>
                     <div className="flex items-center gap-2 mt-2">
                         <Badge variant={crop.status === 'active' ? 'default' : 'secondary'} className={crop.status === 'active' ? 'bg-green-600' : ''}>
                            {crop.status === 'active' ? 'Activo' : 'Pausado'}

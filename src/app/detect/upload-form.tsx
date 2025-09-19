@@ -2,7 +2,6 @@
 "use client";
 
 import { useState, useRef, useMemo, Fragment } from "react";
-import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -148,7 +147,8 @@ export function UploadForm() {
 
       {preview && (
         <div className="relative w-full max-w-sm mx-auto">
-          <Image
+          { /* eslint-disable-next-line @next/next/no-img-element */ }
+          <img
             src={preview}
             alt="Vista previa de la planta"
             width={400}

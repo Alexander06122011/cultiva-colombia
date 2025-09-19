@@ -1,7 +1,6 @@
 
 'use client';
 
-import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import { notFound } from 'next/navigation';
 import { CROP_DATA } from '@/lib/data';
@@ -331,17 +330,6 @@ export default function CropDetailPage() {
         {steps.map((step, i) => (
           <li key={i}>
             {renderWithGlossary(step.text)}
-            {step.imageUrl && (
-              <div className="relative h-48 w-full mt-2 rounded-md overflow-hidden">
-                <Image
-                  src={step.imageUrl}
-                  alt={`Ilustración para el paso ${i + 1}`}
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  data-ai-hint={step.imageHint}
-                />
-              </div>
-            )}
           </li>
         ))}
       </ul>
@@ -351,14 +339,8 @@ export default function CropDetailPage() {
   return (
     <div className="container mx-auto max-w-4xl space-y-8">
       <Card className="overflow-hidden">
-        <div className="relative h-64 md:h-80 w-full">
-          <Image
-            src={crop.imageUrl}
-            alt={crop.name}
-            fill
-            style={{objectFit: 'cover'}}
-            data-ai-hint={crop.imageHint}
-          />
+        <div className="relative h-64 md:h-80 w-full bg-secondary">
+          {/* Image removed */}
         </div>
         <CardHeader>
           <div className="flex justify-between items-center">

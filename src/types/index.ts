@@ -4,8 +4,6 @@ export type UserRole = 'teacher' | 'student' | 'enthusiast';
 
 export interface PlantingStep {
   text: string;
-  imageUrl?: string;
-  imageHint?: string;
 }
 
 export interface Crop {
@@ -13,8 +11,6 @@ export interface Crop {
   name: string;
   species: string;
   description: string;
-  imageUrl: string;
-  imageHint: string;
   difficulty: Difficulty;
   lifeCycle: {
     planting: string;

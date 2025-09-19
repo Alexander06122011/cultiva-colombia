@@ -2,7 +2,6 @@
 "use client";
 
 import * as React from 'react';
-import Image from 'next/image';
 import {
   Popover,
   PopoverContent,
@@ -38,16 +37,6 @@ export function GlossaryTerm({ termId, children }: GlossaryTermProps) {
           <div className="space-y-2">
             <h4 className="font-medium leading-none">{term.name}</h4>
             <p className="text-sm text-muted-foreground">{term.definition}</p>
-          </div>
-          <div className="relative h-40 w-full">
-            <Image
-              src={term.imageUrl}
-              alt={term.name}
-              fill
-              style={{ objectFit: 'cover' }}
-              className="rounded-md"
-              data-ai-hint={term.imageHint}
-            />
           </div>
         </div>
       </PopoverContent>

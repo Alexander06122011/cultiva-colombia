@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -27,18 +27,7 @@ export function CropCard({ crop, onAddToDashboard }: CropCardProps) {
 
   return (
     <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl">
-      <CardHeader className="p-0">
-        <div className="relative h-48 w-full">
-          <Image
-            src={crop.imageUrl}
-            alt={crop.name}
-            fill
-            style={{ objectFit: "cover" }}
-            data-ai-hint={crop.imageHint}
-          />
-        </div>
-      </CardHeader>
-      <CardContent className="p-4 flex-grow">
+      <CardHeader className="p-4 pb-0">
         <div className="flex justify-between items-start">
             <CardTitle className="text-xl mb-1 font-headline">{crop.name}</CardTitle>
             <Tooltip>
@@ -50,6 +39,8 @@ export function CropCard({ crop, onAddToDashboard }: CropCardProps) {
               </TooltipContent>
             </Tooltip>
         </div>
+      </CardHeader>
+      <CardContent className="p-4 flex-grow">
         <CardDescription className="line-clamp-3">{crop.description}</CardDescription>
       </CardContent>
       <CardFooter className="p-4 pt-0 flex justify-between">

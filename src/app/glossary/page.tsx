@@ -1,5 +1,4 @@
 
-import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { GLOSSARY_DATA } from '@/lib/glossary';
 import { BookOpen } from 'lucide-react';
@@ -20,18 +19,7 @@ export default function GlossaryPage() {
       <div className="grid gap-6">
         {GLOSSARY_DATA.map((term) => (
           <Card key={term.id} className="flex flex-col md:flex-row overflow-hidden w-full">
-            <div className="md:w-1/3">
-                 <div className="relative h-full min-h-48 w-full">
-                    <Image
-                        src={term.imageUrl}
-                        alt={term.name}
-                        fill
-                        style={{ objectFit: 'cover' }}
-                        data-ai-hint={term.imageHint}
-                    />
-                </div>
-            </div>
-            <div className="md:w-2/3">
+            <div className="md:w-full">
               <CardHeader>
                 <CardTitle>{term.name}</CardTitle>
               </CardHeader>

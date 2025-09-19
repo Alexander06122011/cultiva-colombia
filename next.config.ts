@@ -10,14 +10,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'i.imgur.com',
-        port: '',
-        pathname: '/**',
-      },
-    ],
+    remotePatterns: [],
   },
   async headers() {
     return [

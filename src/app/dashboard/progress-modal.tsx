@@ -2,14 +2,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { 
     Dialog,
     DialogContent,
     DialogHeader,
     DialogTitle,
-    DialogDescription,
     DialogFooter
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
@@ -127,15 +125,7 @@ export function ProgressModal({ isOpen, setIsOpen, crop: initialCrop }: Progress
                             </DialogTitle>
                         </DialogHeader>
                         <Card className="overflow-hidden mb-4">
-                             <div className="relative h-48 w-full">
-                                <Image
-                                    src={crop.imageUrl}
-                                    alt={crop.name}
-                                    fill
-                                    style={{ objectFit: 'cover' }}
-                                    data-ai-hint={crop.imageHint}
-                                />
-                            </div>
+                             <div className="relative h-48 w-full bg-secondary" />
                             <CardContent className="p-4">
                                 <div>
                                     <p className="text-sm font-medium text-muted-foreground mb-1">Progreso a la cosecha: {crop.progress}%</p>
