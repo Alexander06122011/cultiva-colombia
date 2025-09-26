@@ -469,10 +469,10 @@ export const CROP_DATA: Crop[] = [
     description: 'El "oro verde" de exportación de Colombia. El aguacate Hass es famoso por su piel rugosa que se torna oscura al madurar, su textura cremosa y su larga vida post-cosecha. Requiere paciencia y condiciones específicas.',
     difficulty: 'hard',
     lifeCycle: {
-      planting: '3-6 meses para germinar. Se recomienda plantar árboles injertados.',
-      growth: '3-4 años para la primera floración (injerto) u 8-10 años (semilla).',
-      harvest: '6-9 meses desde la floración hasta el fruto maduro.',
-      totalDays: 1460, // 4 years for first fruit from grafted tree
+      planting: 'Se recomienda plantar árboles injertados. Germinar una semilla puede tomar 3-6 meses.',
+      growth: 'Un árbol injertado toma 3-4 años para su primera cosecha. Un árbol de semilla puede tardar de 8 a 15 años.',
+      harvest: 'La cosecha ocurre 6-9 meses después de la floración. Es un árbol de producción a largo plazo.',
+      totalDays: 1460, // ~4 años
     },
     requirements: {
       irrigation: 'Riego profundo y poco frecuente. No tolera el encharcamiento en absoluto.',
@@ -485,10 +485,8 @@ export const CROP_DATA: Crop[] = [
       pot: [
         { text: 'Posible solo durante los primeros 1-2 años, luego necesita trasplante a suelo.' },
         { text: 'Usa una maceta muy grande (mínimo 60L) con excelente drenaje.' },
-        { 
-          text: 'Germina la semilla en agua o directamente en tierra.'
-        },
-        { text: 'El árbol no fructificará de forma viable en una maceta.' },
+        { text: 'Germinar la semilla es un experimento divertido, pero no garantiza frutos de calidad.' },
+        { text: 'El árbol no fructificará de forma viable en una maceta a largo plazo.' },
       ],
       soil: [
         { text: 'Elige un lugar soleado y protegido del viento fuerte. El suelo debe ser franco y con drenaje perfecto.' },
@@ -527,10 +525,10 @@ export const CROP_DATA: Crop[] = [
     description: 'El cultivo insignia de Colombia. El café es un arbusto que produce cerezas rojas, cuyas semillas se tuestan para crear una de las bebidas más famosas del mundo. Prefiere las laderas de las montañas.',
     difficulty: 'hard',
     lifeCycle: {
-      planting: '6-12 semanas para germinar.',
-      growth: '3-4 años para alcanzar la madurez y la primera cosecha importante.',
-      harvest: 'La cosecha principal ocurre una vez al año, con una secundaria ("mitaca").',
-      totalDays: 1460, // 4 years
+      planting: 'Desde semilla (chapola) toma 6-12 semanas en germinar.',
+      growth: 'Un arbusto de café tarda entre 3 y 4 años en alcanzar la madurez y producir su primera cosecha significativa.',
+      harvest: 'La cosecha principal ocurre una vez al año, con una secundaria ("mitaca"). Es un cultivo perenne.',
+      totalDays: 1460, // ~4 años
     },
     requirements: {
       irrigation: 'Regular, especialmente en épocas secas. Buen drenaje es vital.',
@@ -542,11 +540,9 @@ export const CROP_DATA: Crop[] = [
     plantingGuide: {
       pot: [
         { text: 'Se puede mantener como planta ornamental en maceta.' },
-        { 
-          text: 'Usa una maceta grande con tierra ácida y buen drenaje.'
-        },
+        { text: 'Usa una maceta grande con tierra ácida y buen drenaje.' },
         { text: 'Prefiere luz brillante pero indirecta. El sol directo puede quemar las hojas.' },
-        { text: 'Es poco probable que produzca una cantidad significativa de café.' },
+        { text: 'Es poco probable que produzca una cantidad significativa de café para consumo.' },
       ],
       soil: [
         { text: 'Se cultiva tradicionalmente bajo sombra de otros árboles como guamos o plátanos.' },
@@ -585,10 +581,10 @@ export const CROP_DATA: Crop[] = [
     description: 'El plátano es un alimento básico en toda Colombia. Esta planta de gran tamaño, similar a un banano pero para cocción, es generosa y su cultivo es relativamente sencillo en climas cálidos.',
     difficulty: 'medium',
     lifeCycle: {
-      planting: 'Crece a partir de cormos o "colinos".',
-      growth: '9-12 meses para que la planta principal produza un racimo.',
-      harvest: 'El racimo se cosecha cuando los plátanos están llenos y verdes.',
-      totalDays: 365,
+      planting: 'Crece a partir de cormos o "colinos" (hijuelos de la base).',
+      growth: 'La planta principal tarda de 9 a 12 meses en producir su primer racimo.',
+      harvest: 'Se cosecha el racimo cuando los plátanos están llenos y verdes. La planta madre muere y los hijos continúan el ciclo.',
+      totalDays: 365, // ~1 año para el primer racimo
     },
     requirements: {
       irrigation: 'Alta demanda de agua. Necesita humedad constante.',
@@ -608,9 +604,7 @@ export const CROP_DATA: Crop[] = [
         { text: 'Planta los "colinos" (brotes de la base) en hoyos grandes y ricos en materia orgánica.' },
         { text: 'Deja un espacio de al menos 3x3 metros entre plantas.' },
         { text: 'Aplica mulching grueso para mantener la humedad y controlar malezas.' },
-        { 
-          text: 'Una vez cosechado el racimo, se corta el tallo principal para dar paso a los hijos.'
-        },
+        { text: 'Una vez cosechado el racimo, se corta el tallo principal para dar paso a los hijos.'},
       ],
       hydroponics: [
         { text: 'Impráctico y no se utiliza a nivel comercial ni doméstico debido al tamaño y peso de la planta.' },
@@ -816,10 +810,10 @@ export const CROP_DATA: Crop[] = [
     description: 'El lulo o naranjilla es una fruta emblemática de Colombia, con un sabor ácido y exótico inconfundible, ideal para jugos. La planta es un arbusto con hojas grandes y espinas.',
     difficulty: 'hard',
     lifeCycle: {
-      planting: '3-4 semanas para germinar.',
-      growth: '10-12 meses para la primera cosecha.',
-      harvest: 'La producción es continua una vez la planta madura.',
-      totalDays: 365,
+      planting: '3-4 semanas para germinar desde semilla.',
+      growth: 'La planta tarda entre 10 y 12 meses en dar su primera cosecha.',
+      harvest: 'La producción es continua una vez la planta madura. Es un arbusto de vida corta (2-3 años).',
+      totalDays: 365, // ~1 año
     },
     requirements: {
       irrigation: 'Alta humedad y riego regular.',
@@ -872,10 +866,10 @@ export const CROP_DATA: Crop[] = [
     description: 'El maracuyá es una fruta de la pasión, una enredadera vigorosa que produce frutos ácidos y muy aromáticos, perfectos para jugos, postres y salsas. Su flor es espectacular.',
     difficulty: 'medium',
     lifeCycle: {
-      planting: '2-4 semanas para germinar.',
-      growth: '6-9 meses para llegar a la estructura de soporte y florecer.',
-      harvest: 'Los frutos se forman y maduran en 2-3 meses. Se cosechan cuando caen al suelo.',
-      totalDays: 270,
+      planting: '2-4 semanas para germinar desde semilla.',
+      growth: 'Tarda de 6 a 9 meses en crecer, cubrir la estructura de soporte y empezar a florecer.',
+      harvest: 'Los frutos maduran 2-3 meses después de la floración. Se cosechan cuando caen al suelo. Producción continua.',
+      totalDays: 270, // ~9 meses
     },
     requirements: {
       irrigation: 'Regular, especialmente en floración y fructificación.',
@@ -931,9 +925,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: 'Se propaga a través de los "colinos" o brotes de la corona.',
-      growth: '10-14 meses para que las raíces engrosen.',
-      harvest: 'Se cosecha cuando las hojas empiezan a amarillear.',
-      totalDays: 420,
+      growth: 'Es un cultivo de ciclo largo, que tarda de 10 a 14 meses en desarrollar raíces de buen tamaño.',
+      harvest: 'Se cosecha cuando las hojas empiezan a amarillear, desenterrando las raíces.',
+      totalDays: 420, // ~14 meses
     },
     requirements: {
       irrigation: 'Moderada. No tolera el encharcamiento.',
@@ -1661,9 +1655,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'easy',
     lifeCycle: {
       planting: 'Se plantan los dientes en otoño o a principios de primavera.',
-      growth: '6-9 meses. El crecimiento es lento y requiere un período de frío.',
-      harvest: 'Cuando las hojas inferiores empiezan a ponerse amarillas y a secarse.',
-      totalDays: 240,
+      growth: 'El ciclo completo toma de 6 a 9 meses. El crecimiento es lento y requiere un período de frío para formar el bulbo.',
+      harvest: 'Se cosecha cuando las hojas inferiores empiezan a ponerse amarillas y a secarse.',
+      totalDays: 240, // ~8 meses
     },
     requirements: {
       irrigation: 'Moderado. Reducir el riego cerca de la cosecha.',
@@ -1716,8 +1710,8 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: 'Se puede empezar desde semilla (largo), o desde bulbillos (más fácil).',
-      growth: '90-120 días para la formación y maduración del bulbo.',
-      harvest: 'Cuando el cuello se ablanda y las hojas se caen y se secan.',
+      growth: 'Tarda de 90 a 120 días en formar y madurar el bulbo.',
+      harvest: 'Se cosecha cuando el cuello se ablanda y las hojas se caen y se secan.',
       totalDays: 120,
     },
     requirements: {
@@ -1824,9 +1818,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: 'Se planta a partir de un trozo de rizoma fresco.',
-      growth: '8-10 meses para que el rizoma madure y desarrolle su sabor completo.',
-      harvest: 'Cuando las hojas se vuelven amarillas y se secan.',
-      totalDays: 300,
+      growth: 'El rizoma tarda de 8 a 10 meses en madurar y desarrollar su sabor completo.',
+      harvest: 'Se cosecha cuando las hojas se vuelven amarillas y se secan.',
+      totalDays: 300, // ~10 meses
     },
     requirements: {
       irrigation: 'Mantener el suelo consistentemente húmedo pero no encharcado.',
@@ -1879,9 +1873,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: '2-4 semanas para germinar.',
-      growth: '6-9 meses para alcanzar la madurez y empezar a florecer.',
+      growth: 'Tarda de 6 a 9 meses en alcanzar la madurez y empezar a florecer.',
       harvest: 'La producción es continua. Los frutos se cosechan cuando la piel se arruga ligeramente.',
-      totalDays: 270,
+      totalDays: 270, // ~9 meses
     },
     requirements: {
       irrigation: 'Regular, especialmente en épocas de floración y fructificación.',
@@ -1934,7 +1928,7 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'easy',
     lifeCycle: {
       planting: '2-3 semanas para germinar.',
-      growth: '3-4 meses para empezar a producir.',
+      growth: 'Tarda de 3 a 4 meses en empezar a producir frutos.',
       harvest: 'Producción continua. Se cosecha cuando el capacho que envuelve la fruta se seca y se vuelve pajizo.',
       totalDays: 120,
     },
@@ -1987,10 +1981,10 @@ export const CROP_DATA: Crop[] = [
     description: 'La granadilla es una de las pasifloras más dulces y apreciadas. Su pulpa gelatinosa y sus semillas comestibles la hacen una fruta deliciosa para comer fresca. Es una enredadera vigorosa que necesita un clima específico.',
     difficulty: 'hard',
     lifeCycle: {
-      planting: '3-5 semanas para germinar.',
-      growth: '8-15 meses para alcanzar la madurez y florecer.',
-      harvest: 'Los frutos se cosechan cuando tienen un color amarillo anaranjado uniforme.',
-      totalDays: 365,
+      planting: '3-5 semanas para germinar desde semilla.',
+      growth: 'La planta tarda de 8 a 15 meses para alcanzar la madurez y florecer.',
+      harvest: 'Los frutos se cosechan cuando tienen un color amarillo anaranjado uniforme. Es una planta perenne.',
+      totalDays: 365, // ~1 año
     },
     requirements: {
       irrigation: 'Regular. Requiere buena humedad pero sin encharcamiento.',
@@ -2152,9 +2146,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'hard',
     lifeCycle: {
       planting: '3-6 semanas para germinar.',
-      growth: '8-15 meses para alcanzar la madurez y empezar a florecer.',
+      growth: 'La planta tarda de 8 a 15 meses en alcanzar la madurez y empezar a florecer.',
       harvest: 'La cosecha es continua una vez la planta está establecida. El fruto se cosecha cuando está completamente amarillo.',
-      totalDays: 450,
+      totalDays: 450, // ~15 meses
     },
     requirements: {
       irrigation: 'Regular, especialmente en la producción de frutos. Buen drenaje es crucial.',
@@ -2208,9 +2202,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'hard',
     lifeCycle: {
       planting: 'Se propaga por semillas o injertos. La germinación es lenta.',
-      growth: '3-5 años para la primera producción.',
-      harvest: 'El fruto se cosecha cuando cae al suelo, indicando su madurez.',
-      totalDays: 1460,
+      growth: 'Un árbol de borojó tarda de 3 a 5 años en dar su primera producción.',
+      harvest: 'El fruto se cosecha cuando cae al suelo, indicando su madurez. Es un árbol perenne.',
+      totalDays: 1460, // ~4 años
     },
     requirements: {
       irrigation: 'Altísima humedad ambiental y suelos constantemente húmedos.',
@@ -2263,9 +2257,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'hard',
     lifeCycle: {
       planting: 'Se propaga por semilla o por hijuelos de la base de la palmera.',
-      growth: '3-6 años para la primera cosecha.',
+      growth: 'La palmera tarda de 3 a 6 años en dar su primera cosecha.',
       harvest: 'Los racimos se cortan cuando los frutos tienen un color anaranjado o rojo intenso.',
-      totalDays: 1825,
+      totalDays: 1825, // ~5 años
     },
     requirements: {
       irrigation: 'Requiere alta humedad y lluvias constantes.',
@@ -2317,10 +2311,10 @@ export const CROP_DATA: Crop[] = [
     description: 'El tomate de árbol es un arbusto frutal andino que produce frutos ovalados de piel lisa y sabor agridulce, excelentes para jugos. Es de crecimiento rápido y producción relativamente temprana.',
     difficulty: 'medium',
     lifeCycle: {
-      planting: '2-4 semanas para germinar.',
-      growth: '1.5 - 2 años para la primera cosecha.',
-      harvest: 'Producción continua durante 3-4 años.',
-      totalDays: 730,
+      planting: '2-4 semanas para germinar desde semilla.',
+      growth: 'Tarda entre 1.5 y 2 años en dar su primera cosecha.',
+      harvest: 'Una vez maduro, produce continuamente durante 3-4 años antes de declinar.',
+      totalDays: 730, // ~2 años
     },
     requirements: {
       irrigation: 'Regular, no tolera ni la sequía ni el encharcamiento.',
@@ -2373,9 +2367,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: 'Se propaga muy fácilmente a partir de esquejes (trozos de tallo).',
-      growth: '1-2 años para empezar a producir.',
+      growth: 'Desde un esqueje, puede tardar de 1 a 2 años en empezar a producir.',
       harvest: 'La floración es nocturna y espectacular. El fruto se cosecha 30-40 días después de la floración.',
-      totalDays: 550,
+      totalDays: 550, // ~1.5 años
     },
     requirements: {
       irrigation: 'Moderado. Al ser un cactus, es sensible al exceso de agua y pudrición de raíces.',
@@ -2428,9 +2422,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'medium',
     lifeCycle: {
       planting: 'Se propaga por acodos o esquejes.',
-      growth: '1 año para empezar a producir.',
-      harvest: 'Producción continua a lo largo del año, con picos de cosecha.',
-      totalDays: 365,
+      growth: 'Tarda aproximadamente 1 año en establecerse y empezar a producir.',
+      harvest: 'Producción continua a lo largo del año, con picos de cosecha. Es un arbusto perenne.',
+      totalDays: 365, // ~1 año
     },
     requirements: {
       irrigation: 'Regular, especialmente en producción. No tolera el encharcamiento.',
@@ -2483,9 +2477,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'easy',
     lifeCycle: {
       planting: 'Se propaga por semillas o injertos.',
-      growth: '2-4 años para la primera cosecha.',
+      growth: 'Tarda de 2 a 4 años en dar su primera cosecha.',
       harvest: 'Los frutos se cosechan cuando caen del árbol, indicando su punto óptimo de madurez.',
-      totalDays: 1095,
+      totalDays: 1095, // ~3 años
     },
     requirements: {
       irrigation: 'Resistente a la sequía una vez establecido. Riego moderado.',
@@ -2592,9 +2586,9 @@ export const CROP_DATA: Crop[] = [
     difficulty: 'easy',
     lifeCycle: {
       planting: 'Se propaga por semillas o esquejes.',
-      growth: '2-4 años para empezar a producir.',
-      harvest: 'La producción puede ocurrir varias veces al año en climas tropicales.',
-      totalDays: 1095,
+      growth: 'Un árbol de guayaba tarda de 2 a 4 años en empezar a producir frutos.',
+      harvest: 'La producción puede ocurrir varias veces al año en climas tropicales. Es un árbol perenne.',
+      totalDays: 1095, // ~3 años
     },
     requirements: {
       irrigation: 'Resistente a la sequía una vez establecido, pero produce mejor con riegos regulares.',
@@ -2696,5 +2690,3 @@ export const SPACE_OPTIONS = [
   { value: 'garden', label: 'Huerto/Jardín' },
   { value: 'patio', label: 'Patio grande' },
 ];
-
-    
