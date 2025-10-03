@@ -472,7 +472,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se recomienda plantar árboles injertados. Germinar una semilla puede tomar 3-6 meses.',
       growth: 'Un árbol injertado toma 3-4 años para su primera cosecha. Un árbol de semilla puede tardar de 8 a 15 años.',
       harvest: 'La cosecha ocurre 6-9 meses después de la floración. Es un árbol de producción a largo plazo.',
-      totalDays: 1460, // ~4 años
+      totalDays: 1460,
     },
     requirements: {
       irrigation: 'Riego profundo y poco frecuente. No tolera el encharcamiento en absoluto.',
@@ -528,7 +528,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Desde semilla (chapola) toma 6-12 semanas en germinar.',
       growth: 'Un arbusto de café tarda entre 3 y 4 años en alcanzar la madurez y producir su primera cosecha significativa.',
       harvest: 'La cosecha principal ocurre una vez al año, con una secundaria ("mitaca"). Es un cultivo perenne.',
-      totalDays: 1460, // ~4 años
+      totalDays: 1460,
     },
     requirements: {
       irrigation: 'Regular, especialmente en épocas secas. Buen drenaje es vital.',
@@ -584,7 +584,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Crece a partir de cormos o "colinos" (hijuelos de la base).',
       growth: 'La planta principal tarda de 9 a 12 meses en producir su primer racimo.',
       harvest: 'Se cosecha el racimo cuando los plátanos están llenos y verdes. La planta madre muere y los hijos continúan el ciclo.',
-      totalDays: 365, // ~1 año para el primer racimo
+      totalDays: 365,
     },
     requirements: {
       irrigation: 'Alta demanda de agua. Necesita humedad constante.',
@@ -813,7 +813,7 @@ export const CROP_DATA: Crop[] = [
       planting: '3-4 semanas para germinar desde semilla.',
       growth: 'La planta tarda entre 10 y 12 meses en dar su primera cosecha.',
       harvest: 'La producción es continua una vez la planta madura. Es un arbusto de vida corta (2-3 años).',
-      totalDays: 365, // ~1 año
+      totalDays: 365,
     },
     requirements: {
       irrigation: 'Alta humedad y riego regular.',
@@ -869,7 +869,7 @@ export const CROP_DATA: Crop[] = [
       planting: '2-4 semanas para germinar desde semilla.',
       growth: 'Tarda de 6 a 9 meses en crecer, cubrir la estructura de soporte y empezar a florecer.',
       harvest: 'Los frutos maduran 2-3 meses después de la floración. Se cosechan cuando caen al suelo. Producción continua.',
-      totalDays: 270, // ~9 meses
+      totalDays: 270,
     },
     requirements: {
       irrigation: 'Regular, especialmente en floración y fructificación.',
@@ -927,7 +927,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga a través de los "colinos" o brotes de la corona.',
       growth: 'Es un cultivo de ciclo largo, que tarda de 10 a 14 meses en desarrollar raíces de buen tamaño.',
       harvest: 'Se cosecha cuando las hojas empiezan a amarillear, desenterrando las raíces.',
-      totalDays: 420, // ~14 meses
+      totalDays: 420,
     },
     requirements: {
       irrigation: 'Moderada. No tolera el encharcamiento.',
@@ -1657,7 +1657,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se plantan los dientes en otoño o a principios de primavera.',
       growth: 'El ciclo completo toma de 6 a 9 meses. El crecimiento es lento y requiere un período de frío para formar el bulbo.',
       harvest: 'Se cosecha cuando las hojas inferiores empiezan a ponerse amarillas y a secarse.',
-      totalDays: 240, // ~8 meses
+      totalDays: 240,
     },
     requirements: {
       irrigation: 'Moderado. Reducir el riego cerca de la cosecha.',
@@ -1820,7 +1820,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se planta a partir de un trozo de rizoma fresco.',
       growth: 'El rizoma tarda de 8 a 10 meses en madurar y desarrollar su sabor completo.',
       harvest: 'Se cosecha cuando las hojas se vuelven amarillas y se secan.',
-      totalDays: 300, // ~10 meses
+      totalDays: 300,
     },
     requirements: {
       irrigation: 'Mantener el suelo consistentemente húmedo pero no encharcado.',
@@ -1875,7 +1875,7 @@ export const CROP_DATA: Crop[] = [
       planting: '2-4 semanas para germinar.',
       growth: 'Tarda de 6 a 9 meses en alcanzar la madurez y empezar a florecer.',
       harvest: 'La producción es continua. Los frutos se cosechan cuando la piel se arruga ligeramente.',
-      totalDays: 270, // ~9 meses
+      totalDays: 270,
     },
     requirements: {
       irrigation: 'Regular, especialmente en épocas de floración y fructificación.',
@@ -1984,7 +1984,7 @@ export const CROP_DATA: Crop[] = [
       planting: '3-5 semanas para germinar desde semilla.',
       growth: 'La planta tarda de 8 a 15 meses para alcanzar la madurez y florecer.',
       harvest: 'Los frutos se cosechan cuando tienen un color amarillo anaranjado uniforme. Es una planta perenne.',
-      totalDays: 365, // ~1 año
+      totalDays: 365,
     },
     requirements: {
       irrigation: 'Regular. Requiere buena humedad pero sin encharcamiento.',
@@ -2001,15 +2001,15 @@ export const CROP_DATA: Crop[] = [
         { text: 'Inviable.' },
       ],
       soil: [
-        { text: 'Requiere una estructura de soporte muy robusta, como parrales o pérgolas altas.' },
+        { text: 'Requiere una estructura de soporte muy robusta, como un parral o pérgola alta.' },
         { text: 'La polinización es crucial y la realizan abejas y otros insectos.' },
         { text: 'El manejo de podas es fundamental para la producción y la salud de la planta.' },
         { text: 'Es un cultivo de largo plazo que requiere dedicación y conocimientos específicos.' },
       ],
       hydroponics: [
-        { text: 'No es una práctica comercial ni doméstica para este cultivo.' },
+        { text: 'No es una práctica que se realice para este cultivo.' },
         { text: 'El tamaño de la planta y sus requerimientos lo hacen inviable.' },
-        { text: 'Limitado a investigación.' },
+        { text: 'No aplicable.' },
         { text: 'No aplicable.' },
       ],
     },
@@ -2148,7 +2148,7 @@ export const CROP_DATA: Crop[] = [
       planting: '3-6 semanas para germinar.',
       growth: 'La planta tarda de 8 a 15 meses en alcanzar la madurez y empezar a florecer.',
       harvest: 'La cosecha es continua una vez la planta está establecida. El fruto se cosecha cuando está completamente amarillo.',
-      totalDays: 450, // ~15 meses
+      totalDays: 450,
     },
     requirements: {
       irrigation: 'Regular, especialmente en la producción de frutos. Buen drenaje es crucial.',
@@ -2204,7 +2204,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga por semillas o injertos. La germinación es lenta.',
       growth: 'Un árbol de borojó tarda de 3 a 5 años en dar su primera producción.',
       harvest: 'El fruto se cosecha cuando cae al suelo, indicando su madurez. Es un árbol perenne.',
-      totalDays: 1460, // ~4 años
+      totalDays: 1460,
     },
     requirements: {
       irrigation: 'Altísima humedad ambiental y suelos constantemente húmedos.',
@@ -2259,7 +2259,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga por semilla o por hijuelos de la base de la palmera.',
       growth: 'La palmera tarda de 3 a 6 años en dar su primera cosecha.',
       harvest: 'Los racimos se cortan cuando los frutos tienen un color anaranjado o rojo intenso.',
-      totalDays: 1825, // ~5 años
+      totalDays: 1825,
     },
     requirements: {
       irrigation: 'Requiere alta humedad y lluvias constantes.',
@@ -2314,7 +2314,7 @@ export const CROP_DATA: Crop[] = [
       planting: '2-4 semanas para germinar desde semilla.',
       growth: 'Tarda entre 1.5 y 2 años en dar su primera cosecha.',
       harvest: 'Una vez maduro, produce continuamente durante 3-4 años antes de declinar.',
-      totalDays: 730, // ~2 años
+      totalDays: 730,
     },
     requirements: {
       irrigation: 'Regular, no tolera ni la sequía ni el encharcamiento.',
@@ -2369,7 +2369,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga muy fácilmente a partir de esquejes (trozos de tallo).',
       growth: 'Desde un esqueje, puede tardar de 1 a 2 años en empezar a producir.',
       harvest: 'La floración es nocturna y espectacular. El fruto se cosecha 30-40 días después de la floración.',
-      totalDays: 550, // ~1.5 años
+      totalDays: 550,
     },
     requirements: {
       irrigation: 'Moderado. Al ser un cactus, es sensible al exceso de agua y pudrición de raíces.',
@@ -2424,7 +2424,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga por acodos o esquejes.',
       growth: 'Tarda aproximadamente 1 año en establecerse y empezar a producir.',
       harvest: 'Producción continua a lo largo del año, con picos de cosecha. Es un arbusto perenne.',
-      totalDays: 365, // ~1 año
+      totalDays: 365,
     },
     requirements: {
       irrigation: 'Regular, especialmente en producción. No tolera el encharcamiento.',
@@ -2479,7 +2479,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga por semillas o injertos.',
       growth: 'Tarda de 2 a 4 años en dar su primera cosecha.',
       harvest: 'Los frutos se cosechan cuando caen del árbol, indicando su punto óptimo de madurez.',
-      totalDays: 1095, // ~3 años
+      totalDays: 1095,
     },
     requirements: {
       irrigation: 'Resistente a la sequía una vez establecido. Riego moderado.',
@@ -2588,7 +2588,7 @@ export const CROP_DATA: Crop[] = [
       planting: 'Se propaga por semillas o esquejes.',
       growth: 'Un árbol de guayaba tarda de 2 a 4 años en empezar a producir frutos.',
       harvest: 'La producción puede ocurrir varias veces al año en climas tropicales. Es un árbol perenne.',
-      totalDays: 1095, // ~3 años
+      totalDays: 1095,
     },
     requirements: {
       irrigation: 'Resistente a la sequía una vez establecido, pero produce mejor con riegos regulares.',
@@ -2630,6 +2630,553 @@ export const CROP_DATA: Crop[] = [
     regions: ['Región Andina', 'Región Caribe', 'Región Orinoquía', 'Región Pacífica'],
     notifications: {
       irrigation: 'Tu árbol de {cropName} es fuerte, pero un buen riego en época seca asegura frutos jugosos.',
+    },
+  },
+  {
+    id: 'pepino-cohombro',
+    name: 'Pepino Cohombro',
+    species: 'Cucumis anguria',
+    description: 'El pepino cohombro, más pequeño y a menudo espinoso que el pepino común, es muy usado para encurtidos y ensaladas. Es una planta rastrera o trepadora muy productiva y resistente.',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: '5-10 días para germinar.',
+      growth: '50-60 días para la primera cosecha.',
+      harvest: 'Producción continua y abundante. Se cosechan los frutos cuando son jóvenes y tiernos.',
+      totalDays: 60,
+    },
+    requirements: {
+      irrigation: 'Alta demanda de agua. Suelo constantemente húmedo.',
+      climate: 'Clima cálido y mucho sol.',
+      space: 'garden',
+      pests: 'Bastante resistente, pero susceptible a pulgones y mildiu si hay mucha humedad.',
+      fertilizers: 'Necesita un suelo rico en materia orgánica.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Funciona bien en macetas grandes (20-25L) con un enrejado para que trepe.' },
+        { text: 'Coloca la maceta en el lugar más soleado que tengas.' },
+        { text: 'Riega diariamente en climas cálidos.' },
+        { text: 'Cosecha los frutos pequeños para un mejor sabor y para estimular la planta.' },
+      ],
+      soil: [
+        { text: 'Siembra en montículos o hileras, dejando que se extienda por el suelo o guiándola por un tutor.' },
+        { text: 'Un buen mulching ayuda a mantener la humedad y los frutos limpios.' },
+        { text: 'Cosecha cada 1-2 días una vez que la planta empieza a producir.' },
+        { text: 'Es una planta muy vigorosa.' },
+      ],
+      hydroponics: [
+        { text: 'Se adapta muy bien a sistemas de goteo en sustratos como fibra de coco.' },
+        { text: 'El soporte vertical es esencial para manejar la planta.' },
+        { text: 'La producción es alta y los frutos de gran calidad.' },
+        { text: 'Requiere polinización manual en interiores.' },
+      ],
+    },
+    compatibility: ['Maíz', 'Frijol', 'Eneldo'],
+    incompatibility: ['Papas', 'Hierbas aromáticas muy fuertes.'],
+    warnings: 'No dejes que los frutos crezcan demasiado en la planta, se vuelven amarillos, duros y amargos rápidamente.',
+    costs: {
+      range: 'Bajo',
+      items: [
+        { item: 'Semillas', price: '$3,000 - $6,000 COP' },
+      ],
+    },
+    recommendations: 'Es un cultivo muy divertido y productivo. Ideal para encurtidos caseros (pepinillos). ¡Una sola planta puede darte docenas de frutos!',
+    regions: ['Región Caribe', 'Región Andina', 'Región Orinoquía'],
+    notifications: {
+      irrigation: '¡Tu {cropName} tiene sed! Un riego constante es clave para que no se amargue.',
+    },
+  },
+  {
+    id: 'berenjena',
+    name: 'Berenjena',
+    species: 'Solanum melongena',
+    description: 'La berenjena es una hortaliza de la familia del tomate, con un fruto carnoso y de piel morada brillante. Es un pilar de la cocina mediterránea y asiática, y se adapta bien a los climas cálidos de Colombia.',
+    difficulty: 'medium',
+    lifeCycle: {
+      planting: '8-12 días para germinar en semillero.',
+      growth: '70-90 días desde el trasplante hasta la primera cosecha.',
+      harvest: 'Se cosechan los frutos cuando tienen un color uniforme y la piel brillante.',
+      totalDays: 100,
+    },
+    requirements: {
+      irrigation: 'Riego regular y profundo.',
+      climate: 'Mucho calor y sol. Es una planta que adora el verano.',
+      space: 'garden',
+      pests: 'Escarabajo de la patata, pulgones, araña roja.',
+      fertilizers: 'Exigente. Necesita un suelo muy rico en materia orgánica y potasio.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Usa una maceta grande y oscura (para atraer calor) de al menos 20-25 litros.' },
+        { text: 'Requiere un tutor para soportar el peso de los frutos.' },
+        { text: 'Necesita el lugar más soleado y cálido posible.' },
+        { text: 'La fertilización líquida periódica es necesaria.' },
+      ],
+      soil: [
+        { text: 'Trasplanta cuando las noches sean consistentemente cálidas.' },
+        { text: 'Deja un espacio de 50-60 cm entre plantas.' },
+        { text: 'El mulching plástico negro puede ayudar a calentar el suelo y aumentar la producción.' },
+        { text: 'Cosecha con tijeras, dejando un pequeño trozo de tallo en el fruto.' },
+      ],
+      hydroponics: [
+        { text: 'Se cultiva con éxito en hidroponía, especialmente en sistemas de goteo con sustratos.' },
+        { text: 'Permite un control total sobre los nutrientes, lo que es beneficioso para esta planta exigente.' },
+        { text: 'Requiere temperaturas cálidas constantes.' },
+        { text: 'La polinización puede necesitar ayuda con vibración de las flores.' },
+      ],
+    },
+    compatibility: ['Frijoles', 'Pimientos', 'Espinacas'],
+    incompatibility: ['Hinojo', 'Maíz'],
+    warnings: 'Las fluctuaciones de temperatura pueden hacer que la planta suelte sus flores sin dar fruto. Necesita calor constante.',
+    costs: {
+      range: 'Medio',
+      items: [
+        { item: 'Semillas/Plántulas', price: '$4,000 - $8,000 COP' },
+        { item: 'Abono/Fertilizante', price: '$15,000 - $25,000 COP' },
+      ],
+    },
+    recommendations: 'Cosecha los frutos cuando la piel esté brillante. Si se pone mate, es probable que esté demasiado madura y llena de semillas.',
+    regions: ['Región Caribe', 'Región Andina'],
+    notifications: {
+      irrigation: 'A tu {cropName} le encanta el sol, ¡pero también el agua! Mantén el riego constante.',
+    },
+  },
+  {
+    id: 'coliflor',
+    name: 'Coliflor',
+    species: 'Brassica oleracea var. botrytis',
+    description: 'La coliflor es una hortaliza de la familia de las coles que se cultiva por su cabeza blanca y compacta (pella). Es un cultivo de clima fresco que requiere más cuidados que su primo, el brócoli.',
+    difficulty: 'hard',
+    lifeCycle: {
+      planting: '4-6 semanas en semillero.',
+      growth: '70-120 días desde el trasplante, dependiendo de la variedad.',
+      harvest: 'Se cosecha cuando la cabeza está compacta y antes de que empiece a separarse.',
+      totalDays: 120,
+    },
+    requirements: {
+      irrigation: 'Riego constante y uniforme. El estrés hídrico afecta mucho la formación de la cabeza.',
+      climate: 'Clima fresco y estable. No tolera el calor ni las heladas fuertes.',
+      space: 'garden',
+      pests: 'Gusanos de la col, pulgones, hernia de la col.',
+      fertilizers: 'Muy exigente. Necesita suelo rico en nitrógeno, boro y molibdeno.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Difícil en maceta por su sensibilidad a las fluctuaciones de temperatura y humedad. Requiere un contenedor muy grande (30L+).' },
+        { text: 'El control de nutrientes es un desafío.' },
+        { text: 'La cabeza producida será probablemente pequeña.' },
+        { text: 'No recomendado para principiantes.' },
+      ],
+      soil: [
+        { text: 'Elige un lugar con sol, pero que no reciba el calor más intenso del día.' },
+        { text: 'Requiere un suelo muy fértil y con un pH neutro a ligeramente alcalino.' },
+        { text: 'Para mantener la cabeza blanca, ata las hojas exteriores sobre ella cuando empiece a formarse (blanqueo).' },
+        { text: 'Cosecha toda la cabeza de una vez.' },
+      ],
+      hydroponics: [
+        { text: 'Posible en sistemas comerciales avanzados, pero muy difícil a nivel doméstico.' },
+        { text: 'Extremadamente sensible a deficiencias de micronutrientes, que son difíciles de manejar en hidroponía.' },
+        { text: 'El control de la temperatura es crucial.' },
+        { text: 'No aplicable para huertos caseros.' },
+      ],
+    },
+    compatibility: ['Cebollas', 'Eneldo', 'Romero'],
+    incompatibility: ['Tomates', 'Fresas', 'Frijoles trepadores'],
+    warnings: 'Es una planta "quisquillosa". Requiere condiciones muy estables de temperatura, humedad y nutrientes para formar una buena cabeza.',
+    costs: {
+      range: 'Medio',
+      items: [
+        { item: 'Semillas/Plántulas', price: '$5,000 - $10,000 COP' },
+        { item: 'Fertilizantes específicos/compost', price: '$20,000 - $35,000 COP' },
+      ],
+    },
+    recommendations: 'Si eres principiante, empieza con el brócoli, que es mucho más tolerante. Si te atreves con la coliflor, investiga sobre la técnica del "blanqueo" para obtener pellas blancas y tiernas.',
+    regions: ['Región Andina'],
+    notifications: {
+      irrigation: 'La {cropName} es delicada. ¡Un riego constante es el secreto para una buena cosecha!',
+    },
+  },
+  {
+    id: 'name',
+    name: 'Ñame',
+    species: 'Dioscorea spp.',
+    description: 'El ñame es un tubérculo muy importante en la dieta de la Región Caribe colombiana. Es una planta trepadora que produce estos grandes tubérculos subterráneos, ricos en carbohidratos.',
+    difficulty: 'medium',
+    lifeCycle: {
+      planting: 'Se planta a partir de trozos del tubérculo.',
+      growth: 'El ciclo es largo, de 8 a 11 meses.',
+      harvest: 'Se cosecha cuando la parte aérea de la enredadera se seca y muere.',
+      totalDays: 300,
+    },
+    requirements: {
+      irrigation: 'Requiere una estación lluviosa para crecer y una seca para la cosecha.',
+      climate: 'Clima cálido y húmedo.',
+      space: 'patio',
+      pests: 'Hormigas, cochinillas.',
+      fertilizers: 'Exigente en potasio y materia orgánica.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Inviable. El tamaño del tubérculo y de la planta lo hacen imposible para macetas.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+      ],
+      soil: [
+        { text: 'Requiere un soporte o tutor robusto para que la planta trepe, de al menos 2 metros.' },
+        { text: 'Se siembra en montículos altos para facilitar el desarrollo del tubérculo y el drenaje.' },
+        { text: 'El suelo debe ser muy suelto y profundo.' },
+        { text: 'La cosecha es laboriosa y requiere desenterrar los grandes tubérculos con cuidado.' },
+      ],
+      hydroponics: [
+        { text: 'No es una técnica que se use para este tipo de cultivo de tubérculo.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+      ],
+    },
+    compatibility: ['Leguminosas que cubran el suelo.'],
+    incompatibility: ['Cultivos que compitan agresivamente por los tutores.'],
+    warnings: 'Asegúrate de tener un sistema de tutorado fuerte instalado ANTES de sembrar. La planta crece mucho y rápido.',
+    costs: {
+      range: 'Medio',
+      items: [
+        { item: 'Trocitos de ñame para siembra', price: 'Variable, a menudo se comparte entre agricultores.' },
+        { item: 'Sistema de tutores', price: 'Puede ser una inversión significativa.' },
+      ],
+    },
+    recommendations: 'El ñame es un cultivo tradicional de gran importancia cultural. Si tienes el espacio y el clima, es una excelente forma de conectar con las raíces agrícolas del Caribe.',
+    regions: ['Región Caribe'],
+    notifications: {
+      irrigation: 'Tu {cropName} necesita la humedad del trópico para crecer fuerte. ¡Que no le falte agua!',
+    },
+  },
+  {
+    id: 'mango',
+    name: 'Mango',
+    species: 'Mangifera indica',
+    description: 'El mango es el rey de las frutas tropicales. Este árbol grande y frondoso produce frutos dulces y jugosos en una gran variedad de formas y sabores. Es un árbol de vida larga y requiere paciencia.',
+    difficulty: 'medium',
+    lifeCycle: {
+      planting: 'Se puede germinar de la semilla, pero para asegurar la variedad es mejor un árbol injertado.',
+      growth: 'Un árbol injertado puede tardar de 3 a 5 años en dar su primera cosecha. Uno de semilla, más de 8 años.',
+      harvest: 'La cosecha ocurre una vez al año, en la temporada cálida. Es un árbol muy longevo.',
+      totalDays: 1460, // ~4 años
+    },
+    requirements: {
+      irrigation: 'Resistente a la sequía una vez establecido. Requiere una estación seca para florecer bien.',
+      climate: 'Clima cálido con una estación seca marcada. No tolera las heladas.',
+      space: 'patio',
+      pests: 'Mosca de la fruta, antracnosis, cochinillas.',
+      fertilizers: 'Fertilización balanceada, rica en potasio y micronutrientes.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Solo variedades enanas y en contenedores extremadamente grandes (100L+). No es lo ideal.' },
+        { text: 'La producción será mínima o nula.' },
+        { text: 'Principalmente como planta ornamental en climas no tropicales.' },
+        { text: 'No recomendado para producción de fruta.' },
+      ],
+      soil: [
+        { text: 'Elige la variedad adecuada para tu gusto y clima (Tommy, Keitt, de azúcar, etc.).' },
+        { text: 'Requiere pleno sol y mucho espacio para crecer (dejar 8-10 metros entre árboles).' },
+        { text: 'Plantar un árbol injertado de vivero es la mejor opción.' },
+        { text: 'La poda de formación en los primeros años es importante para una buena estructura.' },
+      ],
+      hydroponics: [
+        { text: 'No es una técnica para árboles frutales grandes como el mango.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+      ],
+    },
+    compatibility: ['Cultivos de cobertura que no compitan por nutrientes.'],
+    incompatibility: ['Árboles que den sombra, otros árboles grandes.'],
+    warnings: 'La antracnosis, un hongo que mancha frutos y hojas, es un problema común en zonas muy húmedas.',
+    costs: {
+      range: 'Alto',
+      items: [
+        { item: 'Árbol injertado', price: '$40,000 - $80,000 COP' },
+        { item: 'Preparación del hoyo y abono inicial', price: '$20,000 - $40,000 COP' },
+      ],
+      note: 'Una inversión a muy largo plazo.'
+    },
+    recommendations: 'Plantar un árbol de mango es un regalo para las futuras generaciones. Si tienes el espacio, es uno de los árboles más gratificantes que puedes cultivar.',
+    regions: ['Región Caribe', 'Región Andina', 'Región Orinoquía'],
+    notifications: {
+      irrigation: 'Tu árbol de {cropName} es fuerte, pero un buen riego en épocas secas ayudará a la cosecha.',
+    },
+  },
+  {
+    id: 'banano',
+    name: 'Banano',
+    species: 'Musa acuminata',
+    description: 'El banano es una de las frutas más consumidas del mundo. Esta planta herbácea de gran tamaño produce racimos de frutos dulces. Es de rápido crecimiento en climas tropicales.',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: 'Se propaga a través de "colinos" o hijuelos de la base.',
+      growth: 'Tarda de 9 a 12 meses en producir su primer racimo.',
+      harvest: 'Se cosecha el racimo entero cuando los frutos están desarrollados pero aún verdes. La planta madre muere y los hijos toman el relevo.',
+      totalDays: 365,
+    },
+    requirements: {
+      irrigation: 'Altísima demanda de agua. Necesita humedad constante.',
+      climate: 'Clima cálido y húmedo (25-30°C). Muy sensible al frío y al viento.',
+      space: 'patio',
+      pests: 'Picudo negro, sigatoka negra.',
+      fertilizers: 'Muy exigente en potasio.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Solo variedades "enanas" o "súper enanas" en contenedores muy grandes (100L+).' },
+        { text: 'Requiere mucho sol, agua y fertilizante.' },
+        { text: 'La producción será limitada, pero es una excelente planta ornamental tropical.' },
+        { text: 'Debe protegerse del viento.' },
+      ],
+      soil: [
+        { text: 'Planta los colinos en hoyos grandes y muy ricos en compost.' },
+        { text: 'Deja un espacio de 3x3 metros entre plantas.' },
+        { text: 'Aplica una capa gruesa de mulching para conservar la humedad.' },
+        { text: 'Maneja la sucesión de "hijos", dejando solo uno o dos para reemplazar a la "madre" después de la cosecha.' },
+      ],
+      hydroponics: [
+        { text: 'No es una práctica común a nivel doméstico por el tamaño de la planta.' },
+        { text: 'Se investiga a nivel comercial, pero no es aplicable a un huerto casero.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+      ],
+    },
+    compatibility: ['Leguminosas de cobertura.'],
+    incompatibility: ['Cultivos que compitan por agua y potasio.'],
+    warnings: 'El viento es su peor enemigo, puede romper las hojas o incluso derribar la planta. Busca un lugar protegido.',
+    costs: {
+      range: 'Medio',
+      items: [
+        { item: 'Colinos', price: '$5,000 - $15,000 COP c/u' },
+        { item: 'Fertilizante rico en potasio', price: '$20,000 - $40,000 COP' },
+      ],
+    },
+    recommendations: 'Aprende a hacer "deshije", la práctica de seleccionar y eliminar los colinos sobrantes para concentrar la energía de la planta en el racimo principal y su sucesor.',
+    regions: ['Región Caribe', 'Región Pacífica', 'Región Orinoquía', 'Región Amazonía', 'Región Andina'],
+    notifications: {
+      irrigation: '¡Al {cropName} le encanta el agua! Asegúrate de que tenga suficiente para crecer fuerte.',
+    },
+  },
+  {
+    id: 'perejil',
+    name: 'Perejil',
+    species: 'Petroselinum crispum',
+    description: 'El perejil es una hierba aromática muy popular en la cocina de todo el mundo. Existen variedades de hoja lisa (más sabrosa) y de hoja rizada (más decorativa). Es una planta bienal que se cultiva como anual.',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: 'La germinación es lenta, puede tardar de 14 a 30 días.',
+      growth: '70-90 días hasta que se puede empezar a cosechar.',
+      harvest: 'Cosecha continua de las hojas exteriores durante meses.',
+      totalDays: 90,
+    },
+    requirements: {
+      irrigation: 'Riego regular, mantener el suelo húmedo.',
+      climate: 'Clima templado. Prefiere sol de la mañana y sombra por la tarde.',
+      space: 'pot',
+      pests: 'Pulgones, mosca de la zanahoria.',
+      fertilizers: 'No es muy exigente. Un suelo rico en compost es suficiente.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Perfecto para macetas. Un contenedor de 20 cm de profundidad es suficiente.' },
+        { text: 'Remoja las semillas en agua tibia durante 24 horas antes de sembrar para acelerar la germinación.' },
+        { text: 'Sé paciente, la germinación es lenta.' },
+        { text: 'Cosecha las hojas exteriores para estimular un crecimiento más frondoso.' },
+      ],
+      soil: [
+        { text: 'Siembra en un lugar con buen drenaje y rico en materia orgánica.' },
+        { text: 'Puede convivir bien con tomates y espárragos.' },
+        { text: 'Corta las hojas con frecuencia para evitar que la planta florezca.' },
+        { text: 'Si florece el segundo año, puedes recolectar las semillas.' },
+      ],
+      hydroponics: [
+        { text: 'Funciona muy bien en sistemas NFT o de balsa flotante (DWC).' },
+        { text: 'El crecimiento es más rápido y limpio que en tierra.' },
+        { text: 'Ideal para tener perejil fresco siempre disponible en la cocina.' },
+        { text: 'Se debe tener cuidado con la concentración de la solución nutritiva.' },
+      ],
+    },
+    compatibility: ['Tomate', 'Zanahoria', 'Cebolla'],
+    incompatibility: ['Lechuga', 'Menta'],
+    warnings: 'La germinación lenta puede frustrar a los principiantes. ¡Ten paciencia!',
+    costs: {
+      range: 'Muy Bajo',
+      items: [
+        { item: 'Semillas', price: '$2,000 - $4,000 COP' },
+      ],
+    },
+    recommendations: 'Para un suministro constante, siembra un poco cada mes. La variedad de hoja lisa generalmente tiene un sabor más intenso y es preferida para cocinar.',
+    regions: ['Región Andina'],
+    notifications: {
+      irrigation: 'Tu {cropName} necesita humedad para estar sabroso. ¡No olvides regarlo!',
+    },
+  },
+  {
+    id: 'apio',
+    name: 'Apio',
+    species: 'Apium graveolens',
+    description: 'El apio es una hortaliza valorada por sus tallos crujientes y aromáticos. Es un cultivo de ciclo largo y exigente, que requiere mucha agua y un suelo muy fértil para producir tallos gruesos y tiernos.',
+    difficulty: 'hard',
+    lifeCycle: {
+      planting: 'La germinación es lenta (2-3 semanas) y se hace en semillero.',
+      growth: 'Tarda de 120 a 140 días desde la siembra hasta la cosecha.',
+      harvest: 'Se cosecha la planta entera cuando los tallos alcanzan el tamaño deseado.',
+      totalDays: 140,
+    },
+    requirements: {
+      irrigation: 'Mucha, mucha agua. Es uno de los cultivos más sedientos. El suelo nunca debe secarse.',
+      climate: 'Clima fresco y estable. No tolera el calor.',
+      space: 'garden',
+      pests: 'Pulgones, babosas, mosca del apio.',
+      fertilizers: 'Muy exigente. Necesita un suelo constantemente húmedo y extremadamente rico en materia orgánica.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Muy difícil en maceta por su alta demanda de agua y nutrientes constantes. No recomendado.' },
+        { text: 'Se secaría muy rápidamente y los tallos serían delgados y fibrosos.' },
+        { text: 'Inviable para obtener una buena cosecha.' },
+        { text: 'No aplicable.' },
+      ],
+      soil: [
+        { text: 'Empieza las semillas en interior 10-12 semanas antes de trasplantar.' },
+        { text: 'Prepara una zanja y llénala con abundante compost antes de plantar.' },
+        { text: 'Trasplanta dejando 20-25 cm entre plantas.' },
+        { text: 'Para blanquear los tallos y hacerlos más tiernos, se puede aporcar o envolver la base con cartón unas semanas antes de cosechar.' },
+      ],
+      hydroponics: [
+        { text: 'Posible en sistemas comerciales, pero difícil a nivel doméstico.' },
+        { text: 'El ciclo largo y la alta demanda de nutrientes lo hacen un cultivo complejo para hidroponía casera.' },
+        { text: 'No recomendado para principiantes.' },
+        { text: 'No aplicable.' },
+      ],
+    },
+    compatibility: ['Repollo', 'Cebolla', 'Tomate'],
+    incompatibility: ['Zanahoria', 'Perejil', 'Papa'],
+    warnings: 'Su mayor desafío es el riego. Si la planta sufre de sed en algún momento, los tallos se volverán fibrosos y amargos.',
+    costs: {
+      range: 'Medio',
+      items: [
+        { item: 'Semillas/Plántulas', price: '$4,000 - $8,000 COP' },
+        { item: 'Compost/Abono', price: 'Requiere grandes cantidades, $25,000+ COP' },
+      ],
+    },
+    recommendations: 'El apio es un cultivo para hortelanos dedicados. Si decides aceptarlo, enfócate en preparar un suelo muy rico y nunca, nunca, dejar que le falte agua.',
+    regions: ['Región Andina'],
+    notifications: {
+      irrigation: '¡El {cropName} es 95% agua! Revisa que su suelo esté siempre empapado.',
+    },
+  },
+  {
+    id: 'albahaca',
+    name: 'Albahaca',
+    species: 'Ocimum basilicum',
+    description: 'La albahaca es una hierba aromática reina de la cocina italiana, pero muy popular en todo el mundo. Su aroma dulce y ligeramente picante es inconfundible. Es una planta anual que ama el calor.',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: '5-10 días para germinar.',
+      growth: '60-80 días para que sea un arbusto frondoso.',
+      harvest: 'Cosecha continua de hojas. Pinzar las puntas fomenta un crecimiento más arbustivo.',
+      totalDays: 80,
+    },
+    requirements: {
+      irrigation: 'Riego regular en la base, sin mojar las hojas.',
+      climate: 'Clima cálido y mucho sol. Odia el frío.',
+      space: 'pot',
+      pests: 'Pulgones, babosas.',
+      fertilizers: 'No es muy exigente. Un suelo bien drenado es más importante que la fertilidad.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Perfecta para macetas. Un contenedor de 15-20 cm es suficiente.' },
+        { text: 'Colócala en el lugar más soleado y cálido que tengas.' },
+        { text: 'Pinza la punta principal cuando la planta tenga 6-8 hojas para que se ramifique.' },
+        { text: 'Corta las flores tan pronto como aparezcan para que la planta siga produciendo hojas.' },
+      ],
+      soil: [
+        { text: 'Siembra o trasplanta cuando no haya ningún riesgo de frío.' },
+        { text: 'Deja 20-30 cm de espacio entre plantas.' },
+        { text: 'Un suelo bien drenado es crucial para evitar la pudrición de raíces.' },
+        { text: 'Es la compañera perfecta para los tomates.' },
+      ],
+      hydroponics: [
+        { text: 'Crece de maravilla en sistemas hidropónicos, especialmente NFT y DWC.' },
+        { text: 'La producción de hojas es muy alta y de gran calidad aromática.' },
+        { text: 'Ideal para tener un suministro constante para pesto casero.' },
+        { text: 'Requiere buena ventilación para evitar hongos.' },
+      ],
+    },
+    compatibility: ['Tomate (mejora su sabor y repele plagas), Pimentón, Espárragos'],
+    incompatibility: ['Ruda', 'Otras hierbas aromáticas muy fuertes.'],
+    warnings: 'El error más común es no pinzar las flores. Si dejas que florezca, la planta pondrá toda su energía en producir semillas y las hojas perderán sabor y aroma.',
+    costs: {
+      range: 'Muy Bajo',
+      items: [
+        { item: 'Semillas', price: '$2,000 - $5,000 COP' },
+      ],
+    },
+    recommendations: 'Planta albahaca junto a tus tomates. Es una de las asociaciones más famosas y beneficiosas del huerto.',
+    regions: ['Región Andina', 'Región Caribe', 'Región Orinoquía'],
+    notifications: {
+      irrigation: 'A tu {cropName} le gusta el sol, pero no la sed. ¡Un buen riego la mantendrá feliz!',
+    },
+  },
+  {
+    id: 'romero',
+    name: 'Romero',
+    species: 'Salvia rosmarinus',
+    description: 'El romero es un arbusto leñoso y perenne, originario del Mediterráneo. Sus hojas en forma de aguja son intensamente aromáticas y se usan en asados, guisos y aceites. Es extremadamente resistente a la sequía.',
+    difficulty: 'easy',
+    lifeCycle: {
+      planting: 'Se propaga mejor por esquejes. La germinación de semillas es muy difícil y lenta.',
+      growth: 'Tarda un año en establecerse bien y convertirse en un arbusto robusto.',
+      harvest: 'Se pueden cosechar ramitas durante todo el año una vez que la planta está establecida.',
+      totalDays: 365,
+    },
+    requirements: {
+      irrigation: 'Muy poca. Es extremadamente tolerante a la sequía. El exceso de agua es su peor enemigo.',
+      climate: 'Clima cálido y seco. Necesita pleno sol y excelente circulación de aire.',
+      space: 'pot',
+      pests: 'Muy resistente a plagas, a veces cochinilla o araña roja si hay poca ventilación.',
+      fertilizers: 'No necesita. Prefiere suelos pobres y arenosos.',
+    },
+    plantingGuide: {
+      pot: [
+        { text: 'Ideal para macetas, especialmente de terracota, que ayudan a que el sustrato se seque.' },
+        { text: 'Usa un sustrato para cactus o mezcla tierra con mucha arena para un drenaje perfecto.' },
+        { text: 'Riega solo cuando la tierra esté completamente seca, incluso a varios centímetros de profundidad.' },
+        { text: 'Poda después de la floración para mantenerlo compacto.' },
+      ],
+      soil: [
+        { text: 'Planta en el lugar más soleado y seco de tu jardín, en un suelo arenoso o rocoso.' },
+        { text: 'No necesita casi ningún cuidado una vez establecido.' },
+        { text: 'Es un arbusto excelente para jardines de bajo mantenimiento (xer jardinería).' },
+        { text: 'Asegúrate de que no esté cerca de aspersores de riego automático.' },
+      ],
+      hydroponics: [
+        { text: 'No es una planta adecuada para hidroponía por su preferencia por condiciones secas.' },
+        { text: 'Sus raíces son propensas a la pudrición en ambientes constantemente húmedos.' },
+        { text: 'No aplicable.' },
+        { text: 'No aplicable.' },
+      ],
+    },
+    compatibility: ['Repollo', 'Zanahorias', 'Salvia (repele plagas)'],
+    incompatibility: ['Plantas que requieran mucha agua, como la menta.'],
+    warnings: 'El error #1 es regarlo demasiado. El romero muere más por exceso de cariño (agua) que por abandono.',
+    costs: {
+      range: 'Muy Bajo',
+      items: [
+        { item: 'Esqueje/Planta', price: '$5,000 - $10,000 COP' },
+      ],
+    },
+    recommendations: 'Toma un esqueje semileñoso (ni muy verde, ni muy marrón) de unos 10-15 cm, quítale las hojas de la mitad inferior y plántalo en tierra arenosa. Enraizará con facilidad.',
+    regions: ['Región Andina', 'Región Caribe'],
+    notifications: {
+      irrigation: '¡Cuidado! Tu {cropName} prefiere estar seco. Riega solo si la tierra está completamente seca.',
     },
   }
 ];
