@@ -1,10 +1,11 @@
+
 /**
  * @fileoverview This file initializes and configures the Genkit AI platform.
  * It sets up the Google AI plugin with the necessary API key and defines a default
  * model for all generative AI operations within the application.
  */
 import {genkit} from 'genkit';
-import {googleAI} from '@genk-ai/googleai';
+import {googleAI} from '@genkit-ai/googleai';
 
 // Define the default model to be used across the application.
 const defaultModel = 'googleai/gemini-2.0-flash';
